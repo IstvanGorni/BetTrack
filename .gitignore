@@ -1,0 +1,21 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# PyCharm
+.idea/
+
+# OS fájlok
+.DS_Store
+
+# Flask / helyi fájlok
+instance/
+*.sqlite3
+
+# Egyéb
+*.log

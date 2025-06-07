@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <title>BetTrack</title>
+</head>
+<body>
+
+  <div class="container py-5">
+    <!-- Alkalmazás neve -->
+    <div class="text-center mb-4">
+      <h1>BetTrack</h1>
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Football Logo" style="max-height: 100px;" />
+    </div>
+
+    <!-- Statisztikai dropdown -->
+    <div class="mb-4 text-center">
+      <form method="get">
+        <select class="form-select w-auto d-inline" onchange="if (this.value) window.location.href=this.value">
+           <option selected disabled>Select a stat</option>
+           <option value="/bet">All Bets</option>
+           <option value="/totalbalance">Total Balance</option>
+           <option value="/totalstake">Total Stake</option>
+           <option value="/avgodds">Avg odds</option>
+           <option value="/betcount">Bet count</option>
+        </select>
+      </form>
+    </div>
+
+    <!-- Új esemény felvitel -->
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <h5 class="card-title">Add New Event</h5>
+        <form method="POST" action="/">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label class="form-label">Event</label>
+              <input type="text" class="form-control" name="event" placeholder="e.g. Barcelona vs Real Madrid" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Date</label>
+              <input type="date" class="form-control" name="date" required />
+            </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Odds</label>
+              <input type="number" step="0.01" class="form-control" name="odds" required />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Stake</label>
+              <input type="number" class="form-control" name="stake" required />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Bet Type</label>
+              <select class="form-select" name="bet_type" required>
+                <option>1X2</option>
+                <option>Over/Under</option>
+                <option>Both Teams Score</option>
+                <option>Lapok</option>
+              </select>
+            </div>
+
+            <div class="col-md-4">
+              <label class="form-label">Outcome</label>
+              <select class="form-select" name="outcome" required>
+                <option>Won</option>
+                <option>Lost</option>
+                <option>Voided</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Sport</label>
+              <select class="form-select" name="sport" required>
+                <option>Football</option>
+                <option>Tennis</option>
+                <option>Basketball</option>
+                <option>Ice hockey</option>
+                <option>Handball</option>
+                <option>Volleyball</option>
+                <option>Vegyes fogadás</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">League</label>
+              <select class="form-select" name="league" required>
+                <option>NB 1</option>
+                <option>NB 2</option>
+                <option>La Liga</option>
+                <option>La Liga 2</option>
+                <option>Premier League</option>
+                <option>Championship</option>
+                <option>Seria A</option>
+                <option>Seria B</option>
+                <option>Ligue 1</option>
+                <option>Ligue 2</option>
+                <option>World Cup qualification</option>
+              </select>
+            </div>
+
+            <div class="col-md-6">
+              <label class="form-label">Result</label>
+              <input type="text" class="form-control" name="result" placeholder="e.g. 2-1" required />
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Bookmaker</label>
+              <select class="form-select" name="bookmaker" required>
+                <option>Unibet</option>
+                <option>Bet365</option>
+                <option>Tippmixpro</option>
+                <option>Vegas</option>
+                <option>Bet1</option>
+              </select>
+            </div>
+
+            <div class="col-12">
+              <label class="form-label">Notes</label>
+              <input type="text" class="form-control" name="notes" placeholder="Optional notes..." />
+            </div>
+            <div class="col-md-4">
+              <label class="form-label">Confidence Scale (1-10)</label>
+              <input type="number" min="1" max="10" class="form-control" name="confidence_scale" required />
+            </div>
+          </div>
+
+          <!-- Gombok -->
+          <div class="mt-4 d-flex justify-content-end gap-2">
+            <button type="submit" class="btn btn-success">Save</button>
+            <button type="reset" class="btn btn-outline-danger">Delete</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div> <!-- /.container -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
