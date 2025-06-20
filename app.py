@@ -15,6 +15,7 @@ def index():
         formatted_date = datetime.strptime(raw_date, '%Y-%m-%d').strftime('%Y.%m.%d')
 
         bet = Bet(
+            id=request.form['id'],
             event=request.form['event'],
             date=formatted_date,  # <-- itt már formázva mentjük
             odds=request.form['odds'],
@@ -111,6 +112,11 @@ def betcount():
 
     count = len(filtered_bets)
     return render_template('betcount.html', bet_count=count, year=year, month=month)
+
+@app.route('/delete/<bet_id>', methods=['POST'])
+def delete_bet(bet_id):
+    data_manager.delete_bet(bet_id)
+    return redirect('/bet')
 
 
 if __name__ == '__main__':
