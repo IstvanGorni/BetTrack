@@ -7,15 +7,29 @@ class DataManager:
     def __init__(self, csv_path):
         self.csv_path = csv_path
         self.bets = self.load_bets()
+        self.max_id = self._get_max_id()  # Legnagyobb eddigi ID-t betöltjük
+
+    def _get_max_id(self):
+        """Visszaadja az eddigi legnagyobb numerikus ID-t, ha van, különben 0"""
+        max_id = 0
+        for bet in self.bets:
+            try:
+                max_id = max(max_id, int(bet.id))
+            except (ValueError, TypeError):
+                continue
+        return max_id
 
     def load_bets(self):
         bets = []
+        if not os.path.exists(self.csv_path):
+            return bets
+
         with open(self.csv_path, newline='', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
                 try:
                     bet = Bet(
-                        id=row.get('id') or str(uuid.uuid4()),  # ha nincs id, generálunk
+                        id=row.get('id') or str(uuid.uuid4()),  # ha nincs id, generálunk egy UUID-t
                         event=row['event'],
                         date=row['date'],
                         odds=row['odds'],
@@ -34,8 +48,11 @@ class DataManager:
         return bets
 
     def add_bet(self, bet):
-        file_exists = os.path.isfile(self.csv_path)
-        is_empty = os.stat(self.csv_path).st_size == 0
+        # Automatikus numerikus ID generálása
+        self.max_id += 1
+        bet.id = str(self.max_id)
+
+        is_empty = not os.path.exists(self.csv_path) or os.stat(self.csv_path).st_size == 0
 
         with open(self.csv_path, mode='a', newline='', encoding='utf-8') as csvfile:
             fieldnames = ['id', 'event', 'date', 'odds', 'stake', 'bet_type', 'outcome',

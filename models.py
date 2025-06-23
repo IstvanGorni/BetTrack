@@ -1,8 +1,8 @@
 import uuid
 
 class Bet:
-    def __init__(self, id, event, date, odds, stake, bet_type, outcome, sport, league, result, notes, confidence_scale):
-        self.id = id  # ÚJ
+    def __init__(self, event, date, odds, stake, bet_type, outcome, sport, league, result, notes, confidence_scale, id=None):
+        self.id = id if id is not None else str(uuid.uuid4())
         self.event = event
         self.date = date
         self.odds = float(odds)
@@ -15,7 +15,6 @@ class Bet:
         self.notes = notes
         self.confidence_scale = int(confidence_scale)
         self.balance = self.calculate_balance()
-
 
     def calculate_balance(self):
         outcome = self.outcome.strip().lower()

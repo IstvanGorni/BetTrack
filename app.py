@@ -15,7 +15,7 @@ def index():
         formatted_date = datetime.strptime(raw_date, '%Y-%m-%d').strftime('%Y.%m.%d')
 
         bet = Bet(
-            id=request.form['id'],
+            id=None,
             event=request.form['event'],
             date=formatted_date,  # <-- itt már formázva mentjük
             odds=request.form['odds'],
