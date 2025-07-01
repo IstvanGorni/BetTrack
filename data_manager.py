@@ -47,6 +47,18 @@ class DataManager:
                     print(f"[HIBA] Sor kihagyva: {row} — {e}")
         return bets
 
+    def count_bets_by_outcome(self):
+        outcome_counts = {"won": 0, "lost": 0}
+
+        for bet in self.bets:
+            outcome = bet.outcome.strip().lower()
+            if outcome in ["won", "win"]:
+                outcome_counts["won"] += 1
+            elif outcome in ['lost', 'lose']:
+                outcome_counts['lost'] += 1
+
+        return outcome_counts
+
     def add_bet(self, bet):
         # Automatikus numerikus ID generálása
         self.max_id += 1
@@ -75,6 +87,8 @@ class DataManager:
         self.bets = [bet for bet in self.bets if bet.id != bet_id]
         self._rewrite_csv()
 
+
+
     def _rewrite_csv(self):
         with open(self.csv_path, mode='w', newline='', encoding='utf-8') as csvfile:
             fieldnames = ['id', 'event', 'date', 'odds', 'stake', 'bet_type', 'outcome',
@@ -83,6 +97,8 @@ class DataManager:
             writer.writeheader()
             for bet in self.bets:
                 writer.writerow(bet.to_dict())
+
+
 
 # Kiegészítő számítások
 
