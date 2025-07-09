@@ -37,9 +37,24 @@ def index():
 
 @app.route('/bet')
 def show_bets():
-    data_manager.bets = data_manager.load_bets()  # ✅ Frissítés betöltés előtt
+    page = int(request.args.get('page', 1))
+    per_page = 10
+
+    data_manager.bets = data_manager.load_bets()
     all_bets = data_manager.get_all_bets()
-    return render_template('bets.html', bets=all_bets)
+
+    total_pages = (len(all_bets) + per_page - 1) // per_page
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated_bets = all_bets[start:end]
+
+    return render_template(
+        'bets.html',
+        bets=paginated_bets,
+        page=page,
+        total_pages=total_pages
+    )
+
 
 @app.route('/totalbalance', methods=['GET'])
 def totalbalance():
