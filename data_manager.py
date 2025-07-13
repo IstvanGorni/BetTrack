@@ -77,6 +77,13 @@ class DataManager:
             writer.writerow(bet.to_dict())
         self.bets.append(bet)
 
+    def update_bet(self, updated_bet):
+        for i, bet in enumerate(self.bets):
+            if str(bet.id) == str(updated_bet.id):
+                self.bets[i] = updated_bet
+                break
+        self._rewrite_csv()
+
     def get_all_bets(self):
         return self.bets
 
