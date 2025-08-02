@@ -38,9 +38,18 @@ def index():
 def show_bets():
     page = int(request.args.get('page', 1))
     per_page = 10
+    date_filter = request.args.get('date_filter')  # 👈 új
 
     data_manager.bets = data_manager.load_bets()
     all_bets = data_manager.get_all_bets()
+
+    # 👇 dátumszűrés logika
+    if date_filter:
+        try:
+            converted_filter = datetime.strptime(date_filter, "%Y-%m-%d").strftime("%Y.%m.%d")
+            all_bets = [bet for bet in all_bets if bet.date == converted_filter]
+        except ValueError:
+            pass  # hibás formátum esetén nem szűrünk
 
     total_pages = (len(all_bets) + per_page - 1) // per_page
     start = (page - 1) * per_page
@@ -51,7 +60,8 @@ def show_bets():
         'bets.html',
         bets=paginated_bets,
         page=page,
-        total_pages=total_pages
+        total_pages=total_pages,
+        date_filter=date_filter  # 👈 hogy megmaradjon az érték az űrlapban
     )
 
 
