@@ -36,6 +36,15 @@
         </select>
       </div>
       <div class="col-auto">
+        <select name="day" class="form-select">
+          <option value="">Day</option>
+          {% for d in range(1, 32) %}
+            {% set d_str = "%02d"|format(d) %}
+            <option value="{{ d_str }}" {% if day == d_str %}selected{% endif %}>{{ d_str }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="col-auto">
         <button type="submit" class="btn btn-primary">Filter</button>
       </div>
     </form>

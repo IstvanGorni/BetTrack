@@ -104,18 +104,24 @@ def edit_bet(bet_id):
 def totalbalance():
     year = request.args.get('year')
     month = request.args.get('month')
+    day = request.args.get('day')
 
     bets = data_manager.get_all_bets()
 
-    if year and month:
-        filtered_bets = [bet for bet in bets if bet.date.startswith(f"{year}.{month.zfill(2)}")]
+    if year and month and day:
+        filter_str = f"{year}.{month.zfill(2)}.{day.zfill(2)}"
+        filtered_bets = [bet for bet in bets if bet.date == filter_str]
+    elif year and month:
+        filter_str = f"{year}.{month.zfill(2)}"
+        filtered_bets = [bet for bet in bets if bet.date.startswith(filter_str)]
     elif year:
         filtered_bets = [bet for bet in bets if bet.date.startswith(f"{year}.")]
     else:
         filtered_bets = bets
 
     total = calculate_total_balance(filtered_bets)
-    return render_template('total_balance.html', total_balance=total, year=year, month=month)
+    return render_template('total_balance.html', total_balance=total, year=year, month=month, day=day)
+
 
 
 @app.route('/totalstake')
