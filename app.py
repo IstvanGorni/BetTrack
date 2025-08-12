@@ -185,8 +185,8 @@ def delete_bet(bet_id):
 
 
 counts = data_manager.count_bets_by_outcome()
-print(f"Nyertes szelvények száma: {counts['won']}")
-print(f"Vesztes szelvények száma: {counts['lost']}")
+# print(f"Nyertes szelvények száma: {counts['won']}")
+# print(f"Vesztes szelvények száma: {counts['lost']}")
 
 if __name__ == '__main__':
     app.run(debug=True)
