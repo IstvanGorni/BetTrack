@@ -38,18 +38,17 @@ def index():
 def show_bets():
     page = int(request.args.get('page', 1))
     per_page = 10
-    date_filter = request.args.get('date_filter')  # 👈 új
+    date_filter = request.args.get('date_filter')
 
     data_manager.bets = data_manager.load_bets()
     all_bets = data_manager.get_all_bets()
 
-    # 👇 dátumszűrés logika
     if date_filter:
         try:
             converted_filter = datetime.strptime(date_filter, "%Y-%m-%d").strftime("%Y.%m.%d")
             all_bets = [bet for bet in all_bets if bet.date == converted_filter]
         except ValueError:
-            pass  # hibás formátum esetén nem szűrünk
+            pass
 
     total_pages = (len(all_bets) + per_page - 1) // per_page
     start = (page - 1) * per_page
@@ -61,7 +60,7 @@ def show_bets():
         bets=paginated_bets,
         page=page,
         total_pages=total_pages,
-        date_filter=date_filter  # 👈 hogy megmaradjon az érték az űrlapban
+        date_filter=date_filter
     )
 
 
@@ -95,7 +94,6 @@ def edit_bet(bet_id):
         data_manager.update_bet(updated_bet)
         return redirect('/bet')
 
-    # Convert date back to yyyy-mm-dd format for HTML date input
     bet.date_html = datetime.strptime(bet.date, '%Y.%m.%d').strftime('%Y-%m-%d')
     return render_template('edit_bet.html', bet=bet)
 
@@ -121,7 +119,6 @@ def totalbalance():
 
     total = calculate_total_balance(filtered_bets)
     return render_template('total_balance.html', total_balance=total, year=year, month=month, day=day)
-
 
 
 @app.route('/totalstake')
@@ -164,18 +161,43 @@ def avgodds():
 def betcount():
     year = request.args.get('year')
     month = request.args.get('month')
+    week = request.args.get('week')
 
     bets = data_manager.get_all_bets()
 
-    if year and month:
-        filtered_bets = [bet for bet in bets if bet.date.startswith(f"{year}.{month.zfill(2)}")]
-    elif year:
-        filtered_bets = [bet for bet in bets if bet.date.startswith(f"{year}.")]
-    else:
-        filtered_bets = bets
+    def parse_date(date_str):
+        return datetime.strptime(date_str, "%Y.%m.%d")
+
+    filtered_bets = bets
+
+    if year:
+        filtered_bets = [
+            bet for bet in filtered_bets
+            if parse_date(bet.date).year == int(year)
+        ]
+
+    if month:
+        filtered_bets = [
+            bet for bet in filtered_bets
+            if f"{parse_date(bet.date).month:02d}" == month
+        ]
+
+    if week:
+        filtered_bets = [
+            bet for bet in filtered_bets
+            if parse_date(bet.date).isocalendar()[1] == int(week)
+        ]
 
     count = len(filtered_bets)
-    return render_template('betcount.html', bet_count=count, year=year, month=month)
+
+    return render_template(
+        'betcount.html',
+        bet_count=count,
+        year=year,
+        month=month,
+        week=week
+    )
+
 
 
 @app.route('/delete/<bet_id>', methods=['POST'])
@@ -185,8 +207,6 @@ def delete_bet(bet_id):
 
 
 counts = data_manager.count_bets_by_outcome()
-# print(f"Nyertes szelvények száma: {counts['won']}")
-# print(f"Vesztes szelvények száma: {counts['lost']}")
 
 if __name__ == '__main__':
     app.run(debug=True)
