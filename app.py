@@ -1,11 +1,10 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, url_for  # url_for hozzáadva
 from data_manager import DataManager, calculate_total_balance, calculate_total_stake, calculate_avgodds
 from models import Bet
 from datetime import datetime
 
 app = Flask(__name__)
 data_manager = DataManager('data.csv')
-
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -32,7 +31,6 @@ def index():
         return redirect('/')
 
     return render_template('index.html')
-
 
 @app.route('/bet')
 def show_bets():
@@ -62,7 +60,6 @@ def show_bets():
         total_pages=total_pages,
         date_filter=date_filter
     )
-
 
 @app.route('/edit/<bet_id>', methods=['GET', 'POST'])
 def edit_bet(bet_id):
@@ -97,7 +94,6 @@ def edit_bet(bet_id):
     bet.date_html = datetime.strptime(bet.date, '%Y.%m.%d').strftime('%Y-%m-%d')
     return render_template('edit_bet.html', bet=bet)
 
-
 @app.route('/totalbalance', methods=['GET'])
 def totalbalance():
     year = request.args.get('year')
@@ -120,7 +116,6 @@ def totalbalance():
     total = calculate_total_balance(filtered_bets)
     return render_template('total_balance.html', total_balance=total, year=year, month=month, day=day)
 
-
 @app.route('/totalstake')
 def totalstake():
     year = request.args.get('year')
@@ -138,7 +133,6 @@ def totalstake():
     total = calculate_total_stake(filtered_bets)
     return render_template('total_stake.html', total_stake=total, year=year, month=month)
 
-
 @app.route('/avgodds')
 def avgodds():
     year = request.args.get('year')
@@ -155,7 +149,6 @@ def avgodds():
 
     total = calculate_avgodds(filtered_bets)
     return render_template('avgodds.html', avg_odds=total, year=year, month=month)
-
 
 @app.route('/betcount')
 def betcount():
@@ -198,15 +191,29 @@ def betcount():
         week=week
     )
 
-
-
 @app.route('/delete/<bet_id>', methods=['POST'])
 def delete_bet(bet_id):
     data_manager.delete_bet(bet_id)
     return redirect('/bet')
 
+@app.route('/transactions', methods=['GET', 'POST'])
+def transactions():
+    if request.method == 'POST':
+        date = request.form['date']
+        amount = float(request.form['amount'])
+        type_ = request.form['type']  # Deposit vagy Withdrawal
+        note = request.form.get('note', '')
 
-counts = data_manager.count_bets_by_outcome()
+        # mentés
+        data_manager.add_transaction(date, amount, type_, note)
+
+        return redirect(url_for('transactions'))
+
+    transactions = data_manager.get_all_transactions()
+    # MÓDOSÍTOTT: Deposit = negatív, Withdrawal = pozitív
+    balance = sum(-t['amount'] if t['type'] == 'Deposit' else t['amount'] for t in transactions)
+
+    return render_template('transactions.html', transactions=transactions, balance=balance)
 
 if __name__ == '__main__':
     app.run(debug=True)
