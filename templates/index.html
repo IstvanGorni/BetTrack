@@ -12,39 +12,40 @@
 <body>
 
   <div class="container py-5">
-    <!-- Alkalmazás neve -->
+    <!-- App name -->
     <div class="text-center mb-4">
       <h1>BetTrack</h1>
       <img src="{{ url_for('static', filename='logo.png') }}" alt="Football Logo" style="max-height: 100px;" />
     </div>
 
-    <!-- Statisztikai dropdown -->
+    <!-- Stats dropdown -->
     <div class="mb-4 text-center">
       <form method="get">
         <select class="form-select w-auto d-inline" onchange="if (this.value) window.location.href=this.value">
-           <option selected disabled>Select a stat</option>
-           <option value="/bet">All Bets</option>
-           <option value="/totalbalance">Total Balance</option>
-           <option value="/totalstake">Total Stake</option>
-           <option value="/avgodds">Avg odds</option>
-           <option value="/betcount">Bet count</option>
-           <option value="/transactions">Transactions</option>
+          <option selected disabled>Select a stat</option>
+          <option value="/bet">All Bets</option>
+          <option value="/totalbalance">Total Balance</option>
+          <option value="/totalstake">Total Stake</option>
+          <option value="/avgodds">Avg odds</option>
+          <option value="/betcount">Bet count</option>
+          <option value="/transactions">Transactions</option>
         </select>
       </form>
     </div>
 
-    <!-- Új esemény felvitel -->
+    <!-- Add new bet -->
     <div class="card shadow-sm">
       <div class="card-body">
         <h5 class="card-title">Add New Event</h5>
+
         <form method="POST" action="/">
           <div class="row g-3">
 
-
             <div class="col-md-6">
               <label class="form-label">Event</label>
-              <input type="text" class="form-control" name="event" placeholder="e.g. Barcelona vs Real Madrid" required />
+              <input type="text" class="form-control" name="event" required />
             </div>
+
             <div class="col-md-6">
               <label class="form-label">Date</label>
               <input type="date" class="form-control" name="date" required />
@@ -54,123 +55,110 @@
               <label class="form-label">Odds</label>
               <input type="number" step="0.01" class="form-control" name="odds" required />
             </div>
+
             <div class="col-md-4">
               <label class="form-label">Stake</label>
               <input type="number" class="form-control" name="stake" required />
             </div>
+
             <div class="col-md-4">
               <label class="form-label">Bet Type</label>
-              <select class="form-select" name="bet_type" required>
+              <select class="form-select" name="bet_type">
                 <option>1X2</option>
                 <option>Over/Under</option>
                 <option>Both Teams Score</option>
+                <option>Trixie</option>
                 <option>Cards</option>
               </select>
             </div>
 
             <div class="col-md-4">
               <label class="form-label">Outcome</label>
-              <select class="form-select" name="outcome" required>
+              <select class="form-select" name="outcome">
                 <option>Won</option>
                 <option>Lost</option>
                 <option>Voided</option>
               </select>
             </div>
+
             <div class="col-md-4">
               <label class="form-label">Sport</label>
-              <select class="form-select" name="sport" required>
+              <select class="form-select" name="sport">
                 <option>Football</option>
                 <option>Tennis</option>
                 <option>Basketball</option>
-                <option>Ice hockey</option>
-                <option>Handball</option>
-                <option>Volleyball</option>
-                <option>Water polo</option>
-                <option>Mixed sports</option>
               </select>
             </div>
+
             <div class="col-md-4">
               <label class="form-label">League</label>
-              <select class="form-select" name="league" required>
+              <select class="form-select" name="league">
                 <option>NB 1</option>
-                <option>NB 2</option>
-                <option>La Liga</option>
-                <option>La Liga 2</option>
                 <option>Premier League</option>
-                <option>Bundesliga</option>
-                <option>Bundesliga2</option>
-                <option>Bundesliga3</option>
-                <option>Belgium1</option>
-                <option>Belgium2</option>
-                <option>Championship</option>
-                <option>Seria A</option>
-                <option>Seria B</option>
-                <option>Ligue 1</option>
-                <option>Ligue 2</option>
-                <option>Ausztria1</option>
-                <option>Ausztria2</option>
-                <option>Allsvenskan</option>
-                <option>Bulgária</option>
-                <option>Cseh1</option>
-                <option>Cseh2</option>
-                <option>Dánia</option>
-                <option>Dánia2</option>
-                <option>Finn1</option>
-                <option>Finn2</option>
-                <option>Holland</option>
-                <option>Holland2</option>
-                <option>Lengyel1</option>
-                <option>Lengyel2</option>
-                <option>Norvégia1</option>
-                <option>Norvégia2</option>
-                <option>Skócia1</option>
-                <option>Skócia2</option>
-                <option>Svájc1</option>
-                <option>Török1</option>
-                <option>Török2</option>
-                <option>BL</option>
-                <option>EL</option>
-                <option>KL</option>
-                <option>Mixed leagues</option>
-                <option>World Cup qualification</option>
+                <option>La Liga</option>
               </select>
             </div>
 
             <div class="col-md-6">
               <label class="form-label">Result</label>
-              <input type="text" class="form-control" name="result" placeholder="e.g. 2-1" required />
+              <input type="text" class="form-control" name="result" />
             </div>
+
             <div class="col-md-6">
               <label class="form-label">Bookmaker</label>
-              <select class="form-select" name="bookmaker" required>
+              <select class="form-select" name="bookmaker">
                 <option>Vegas</option>
                 <option>Unibet</option>
                 <option>Bet365</option>
-                <option>Bet1</option>
               </select>
+            </div>
+
+            <!-- 🔽 EZ A LÉNYEG -->
+            <div class="col-md-4">
+              <label class="form-label">Confidence Scale (1–10)</label>
+              <input
+                type="number"
+                min="1"
+                max="10"
+                class="form-control"
+                name="confidence_scale"
+                value="8"
+              />
+            </div>
+
+            <!-- Hány meccsre fogadtál rész -->
+            <div class="col-md-4">
+              <label class="form-label">How many bets? (1–10)</label>
+              <input
+                type="number"
+                min="1"
+                max="10"
+                class="form-control"
+                name="total_bets"
+                value="1"
+              />
             </div>
 
             <div class="col-12">
               <label class="form-label">Notes</label>
-              <input type="text" class="form-control" name="notes" placeholder="Optional notes..." />
+              <input type="text" class="form-control" name="notes" />
             </div>
-            <div class="col-md-4">
-              <label class="form-label">Confidence Scale (1-10)</label>
-              <input type="number" min="1" max="10" class="form-control" name="confidence_scale" required />
-            </div>
+
+
+
           </div>
 
-          <!-- Gombok -->
           <div class="mt-4 d-flex justify-content-end gap-2">
             <button type="submit" class="btn btn-success">Save</button>
             <button type="reset" class="btn btn-outline-danger">Delete</button>
           </div>
         </form>
+
       </div>
     </div>
-
-  </div> <!-- /.container -->
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+

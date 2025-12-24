@@ -1,3 +1,5 @@
+from email.policy import default
+
 from flask import Flask, render_template, request, redirect, url_for  # url_for hozzáadva
 from data_manager import DataManager, calculate_total_balance, calculate_total_stake, calculate_avgodds
 from models import Bet
@@ -24,7 +26,9 @@ def index():
             league=request.form['league'],
             result=request.form['result'],
             notes=request.form['notes'],
-            confidence_scale=request.form['confidence_scale']
+            confidence_scale=request.form['confidence_scale'],
+            total_bets=request.form['total_bets']
+
         )
 
         data_manager.add_bet(bet)
@@ -85,7 +89,8 @@ def edit_bet(bet_id):
             league=request.form['league'],
             result=request.form['result'],
             notes=request.form['notes'],
-            confidence_scale=request.form['confidence_scale']
+            confidence_scale=request.form['confidence_scale'],
+            total_bets=request.form['total_bets']
         )
 
         data_manager.update_bet(updated_bet)
