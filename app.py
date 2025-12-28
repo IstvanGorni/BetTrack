@@ -42,17 +42,31 @@ def show_bets():
     per_page = 10
     date_filter = request.args.get('date_filter')
 
+    # friss betöltés CSV-ből
     data_manager.bets = data_manager.load_bets()
     all_bets = data_manager.get_all_bets()
 
+    def parse_date(bet):
+        try:
+            return datetime.strptime(bet.date, "%Y.%m.%d")
+        except Exception:
+            return datetime.min  # hibás dátum menjen a lista végére
+
+    # 🔍 opcionális dátum szűrés
     if date_filter:
         try:
-            converted_filter = datetime.strptime(date_filter, "%Y-%m-%d").strftime("%Y.%m.%d")
+            converted_filter = datetime.strptime(
+                date_filter, "%Y-%m-%d"
+            ).strftime("%Y.%m.%d")
             all_bets = [bet for bet in all_bets if bet.date == converted_filter]
         except ValueError:
             pass
 
-    total_pages = (len(all_bets) + per_page - 1) // per_page
+    # ✅ 🔥 LEGFRISSEBB ELŐRE – EZ A KULCS
+    all_bets.sort(key=parse_date, reverse=True)
+
+    # 📄 pagination
+    total_pages = max(1, (len(all_bets) + per_page - 1) // per_page)
     start = (page - 1) * per_page
     end = start + per_page
     paginated_bets = all_bets[start:end]
@@ -64,6 +78,7 @@ def show_bets():
         total_pages=total_pages,
         date_filter=date_filter
     )
+
 
 @app.route('/edit/<bet_id>', methods=['GET', 'POST'])
 def edit_bet(bet_id):
@@ -89,8 +104,8 @@ def edit_bet(bet_id):
             league=request.form['league'],
             result=request.form['result'],
             notes=request.form['notes'],
-            confidence_scale=request.form['confidence_scale'],
-            total_bets=request.form['total_bets']
+            confidence_scale=request.form.get('confidence_scale', bet.confidence_scale),
+            total_bets=request.form.get('total_bets', bet.total_bets)
         )
 
         data_manager.update_bet(updated_bet)

@@ -1,170 +1,183 @@
 id,event,date,odds,stake,bet_type,outcome,sport,league,result,notes,confidence_scale,total_bets
-1,"Ausztrália-Japán, Bahrein-Szaudarábia",2025.06.05,4.92,1000.0,1X2,Won,Football,World Cup qualification,"1-0, 0-2",Bejöttek a meccsek.,7,1
-2,"Musetti-Alcaraz,Macedonia-Belgium,Csehország-Montenegro",2025.06.06,2.89,8593.0,1X2,Lost,Vegyes fogadás,World Cup qualification,"1-2,1-1,2-0",Belgium egy lutri csapat jelenleg!,8,1
-3,Málta-Litvánia,2025.06.07,3.05,10000.0,1X2,Lost,Football,World Cup qualification,0-0,Nem nyertek a  Litvánok..,7,1
-4,Ausztria-Románia,2025.06.07,3.2,5000.0,1X2,Lost,Football,World Cup qualification,2-1,Kikaptak a románok..,6,1
-5,"Namíbia-Malawi, Biegthem-Magdeburg, Kronau-FürseBerlin",2025.06.08,2.39,5000.0,1X2,Lost,Vegyes fogadás,Championship,0-0,Nem nyert Namíbia,6,1
-6,"Portugália-Spanyolország, R.Santander-Mirandes",2025.06.08,4.03,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Portugál x lett én Spanyolokra tettem..,6,1
-7,"R.Santander-MIrandes, Portugália-Spanyolország",2025.06.08,6.9,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Itt is a Portugál ment el..,6,1
-8,Portugália-Spanyolország,2025.06.08,4.15,5000.0,1X2,Won,Football,World Cup qualification,2-2,Biztosíték volt és bejött. Live fogadás. 2-1-nél.,6,1
-9,"Belgium-Wales,Kazasztán-Macedónia",2025.06.09,3.23,10000.0,1X2,Won,Football,World Cup qualification,"4-3,0-1",Belgium 30 nulláról majdnem elbukta..,7,1
-10,"Románia-Ciprus, Lettország-Albánia",2025.06.10,2.61,15000.0,1X2,Lost,Football,World Cup qualification,"2-0,1-1",Sajnos az Albánok nem tudtak nyerni...,8,1
-11,"Ausztrália-Japán, Bahrein-Szaudarábia",2025.06.05,4.92,1000.0,1X2,Won,Football,World Cup qualification,"1-0, 0-2",Bejöttek a meccsek.,7,1
-12,"Musetti-Alcaraz,Macedonia-Belgium,Csehország-Montenegro",2025.06.06,2.89,8593.0,1X2,Lost,Vegyes fogadás,World Cup qualification,"1-2,1-1,2-0",Belgium egy lutri csapat jelenleg!,8,1
-13,Málta-Litvánia,2025.06.07,3.05,10000.0,1X2,Lost,Football,World Cup qualification,0-0,Nem nyertek a  Litvánok..,7,1
-14,Ausztria-Románia,2025.06.07,3.2,5000.0,1X2,Lost,Football,World Cup qualification,2-1,Kikaptak a románok..,6,1
-15,"Namíbia-Malawi, Biegthem-Magdeburg, Kronau-FürseBerlin",2025.06.08,2.39,5000.0,1X2,Lost,Vegyes fogadás,Championship,0-0,Nem nyert Namíbia,6,1
-16,"Portugália-Spanyolország, R.Santander-Mirandes",2025.06.08,4.03,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Portugál x lett én Spanyolokra tettem..,6,1
-17,"R.Santander-MIrandes, Portugália-Spanyolország",2025.06.08,6.9,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Itt is a Portugál ment el..,6,1
-18,Portugália-Spanyolország,2025.06.08,4.15,5000.0,1X2,Won,Football,World Cup qualification,2-2,Biztosíték volt és bejött. Live fogadás. 2-1-nél.,6,1
-19,"Belgium-Wales,Kazasztán-Macedónia",2025.06.09,3.23,10000.0,1X2,Won,Football,World Cup qualification,"4-3,0-1",Belgium 30 nulláról majdnem elbukta..,7,1
-20,"Románia-Ciprus, Lettország-Albánia",2025.06.10,2.61,15000.0,1X2,Lost,Football,World Cup qualification,"2-0,1-1",Sajnos az Albánok nem tudtak nyerni...,8,1
-21,"Botswana-Zambía,Szváziföld-Tanzánia",2025.06.11,3.04,3000.0,1X2,Lost,Football,World Cup qualification,"3-3,1,2",,6,1
-22,"Szlovákia-Spanyolország,OOG-Holstbero",2025.06.11,2.39,10000.0,1X2,Won,Mixed sports,Mixed leagues,"2-3,38-30",,8,1
-23,"Olaszország-Románia,Oviedo-Almeira",2025.06.11,5.31,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-1",,7,1
-24,"MIrandes-Santander, Finn-Hollandia",2025.06.12,2.95,5000.0,1X2,Lost,Football,Mixed leagues,"4-1,2-2",Hollandon ment el,7,1
-25,"Sampdoria-Salernitana, Spanyol-Románia",2025.06.13,3.1,10000.0,1X2,Won,Football,Mixed leagues,"2-0,2-1",,7,1
-26,"Anglia-Szlovénia, Madagaszkár-Comorre szigetek",2025.06.15,3.22,5000.0,1X2,Lost,Football,Mixed leagues,"0-0, 0-1",Mind a kettő elment,6,1
-27,"Angola-Dél Afrika, Nantes-Barcelona ",2025.06.15,3.11,5000.0,1X2,Lost,Mixed sports,Mixed leagues,"3-0, 30-25",Mind a kettő elment,6,1
-28,"Grúzia-Portugália, Francia-Lengyel, River Plate- Urawa",2025.06.17,2.71,6000.0,1X2,Won,Football,Mixed leagues,"0-4, 4-1, 3-1",Bejöttek..,8,1
-29,"Anglia-Németország, Ilves-Senjion",2025.06.18,5.98,5000.0,1X2,Lost,Football,Mixed leagues,"1-2, 2-3",Mind a kettő elment,7,1
-30,Anglia-Németország,2025.06.18,3.65,7000.0,1X2,Lost,Football,World Cup qualification,1-2,,8,1
-31,"Palmeiras-AL, Inter Turku-KTP",2025.06.19,4.17,5000.0,1X2,Lost,Football,Mixed leagues,"2-0,5-0,2-1",,8,1
-32,"Hollandia-Anglia, Magyarország-Argentína",2025.06.20,2.33,10000.0,1X2,Won,Mixed sports,World Cup qualification,"4-2, 36-29",Bejött..,8,1
-33,"Mamelodi-Dortmund, Internationale-Urawa",2025.06.21,2.14,13000.0,1X2,Won,Football,World Cup qualification,"3-4,2-1",Bejöttek de nem volt egyik sem sima meccs,8,1
-34,"Portugália-Hollandia, Oviedo-Mirandes, River plate- Monterrey",2025.06.21,4.75,5600.0,1X2,Lost,Football,World Cup qualification,"0-1, 3-1, 0-0",,6,1
-35,"River Plate-Monterrey, Oviedo-Mirandes",2025.06.21,3.33,5000.0,1X2,Lost,Football,World Cup qualification,"0-0, 3-1",Egyik sem jött be..,6,1
-36,"Spanyolország-Anglia, Flumenese-Ulsan",2025.06.21,3.66,5000.0,1X2,Lost,Football,World Cup qualification,"1-3, 2-0",,7,1
-37,"Dánia-Franciaország, Real Madrid-Pachua",2025.06.22,2.42,10000.0,1X2,Won,Football,World Cup qualification,"2-3, 3-1",Francia azért nehezen nyert..,7,1
-38,"Salernitana-Sampdoria, Real Madrid-Pachua",2025.06.22,6.02,2898.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",Hála istennek a Samp megnyerte..,4,1
-39,"ManCity-Alin, Usa-Haiti, RealMadrid-Pachua",2025.06.22,2.43,10000.0,1X2,Won,Football,Mixed leagues,"6-0, 2-1, 3-1",Bejöttek a papírforma eredmények.,8,1
-40,"Seattle-Paris, Spanyolország-Németország, Norvégia-Magyarország",2025.06.23,3.49,10000.0,1X2,Lost,Mixed sports,World Cup qualification,"0-2, 3-3, 37-33",Spanyolok sajnos elvitték..,7,1
-41,"AtlMadrid-Botafogo, Hollandia-Románia",2025.06.23,5.14,8664.0,Cards,Lost,Football,Mixed leagues,"1-0, 3-1",Nem lett piros lap az Atletico meccsen..,8,1
-42,"Norvégia-Ausztria, Szlovénia-Magyarország",2025.06.24,2.19,20000.0,1X2,Lost,Handball,World Cup qualification,"27-27, 35-31",Tanulság: Ne fogadj olyanra amit nem ismersz jól!!,7,1
-43,Palmeiras-Botafogó,2025.06.28,3.3,5000.0,Cards,Lost,Football,World Cup qualification,0-0,Sajnos nem volt piros lap..,8,1
-44,"Paris-Maimi, Tobol-Zhenis, Ordabaszi-Almathi",2025.06.29,2.9,1500.0,1X2,Lost,Football,Mixed leagues,"4-0,2-2,0-1",A Tobol elment..,6,1
-45,"Ordabaszi-Almati, Paris-Miami",2025.06.29,2.36,1500.0,1X2,Won,Football,Mixed leagues,"0-1,4-0",Bejött..,7,1
-46,Flamengo-Bayern München,2025.06.29,4.35,1500.0,Cards,Lost,Football,World Cup qualification,2-4,Nem volt piros lap..,8,1
-47,Inter-Fluminese,2025.06.30,3.7,1500.0,Cards,Lost,Football,World Cup qualification,0-2,Sajnos nem volt piros lap,7,1
-48,"Dortmund-Monterrey, Real Madrid-Juventus",2025.07.01,3.02,1549.0,1X2,Lost,Football,World Cup qualification,"2-1,1-0","Dortumnd nyert, így elment..",6,1
-49,"Izland-Finnország, Helsinki-Jaro, Ilves-KTP",2025.07.02,4.65,1000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-3,2,1",Nem jöttek be..,6,1
-50,"Ibéria-Malmő, NOAH-Podgorica",2025.07.08,2.07,10000.0,1X2,Won,Football,BL,"1-3,1-0","Ok, bejött..",7,1
-51,Flumenese-Chelsea,2025.07.08,3.6,5000.0,Cards,Lost,Football,World Cup qualification,0-2,Nem volt piros lap..,8,1
-52,"Ludogorac-MInszk, FTC-Zlin, Atletic-Dundelange",2025.07.09,5.63,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0,2-0",Dundelande....,8,1
-53,Vingegard,2025.07.09,6.75,770.0,1X2,Lost,Mixed sports,World Cup qualification,0-0,Kerékpár volt...,6,1
-54,"Szófia-Hapoel,Szkopje-Fiorita",2025.07.10,3.39,5000.0,1X2,Lost,Football,EL,"0-0,3-0",Zsidók nem nyertek..,8,1
-55,"Paks-Kolozsvár, Sherif-Pristina. Runavik-Helsinki",2025.07.10,4.64,5000.0,1X2,Lost,Football,KL,"0-0,4-0,4,0",Helsinki egy fos..,7,1
-56,"Japán-Horvátország, Magyarország-Görögország",2025.07.11,2.01,5000.0,1X2,Won,Water polo,World Cup qualification,"25-15,11-10",Magyarok nagyon nehezen nyertek..,6,1
-58,Girmay,2025.07.12,11.5,2000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0,Kerékpár volt..,5,1
-59,"bukarest-Hermalin, Malmő-Norrköping",2025.07.12,2.21,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,3-1",Szarok nem nyertek......,8,1
-60,"AIK-Degerfors, Varnamo-Djungarden",2025.07.13,2.81,3075.0,1X2,lost,Football,Allsvenskan,"3-0,1-0",Nem Nyertek,6,1
-61,"Malmő-Liberia, Ilves-Vaasa",2025.07.15,2.08,5000.0,1X2,Won,Football,Mixed leagues,"3-2,3-1",bejött..,7,1
-62,"DinamoMinszk-Ludogorec, Dila gori-Luxemburg",2025.07.16,2.58,5000.0,1X2,Lost,Football,Mixed leagues,2-1,Nem tudott nyerni a Ludogorec.,7,1
-63,"Dila Gori-Luxemburg, Aktobe-Varso",2025.07.17,2.84,5441.0,1X2,Won,Football,EL,"1-0,0-1",bejött..,7,1
-64,"Partizan-Ciprus, Viborg-Köbenhavn",2025.07.17,3.28,5000.0,1X2,Lost,Football,EL,1-0,elment..,6,1
-65,"Hermannstadt-Metaglobus, Pardubice-Plezn, Szerbia-Japán",2025.07.18,2.23,10462.0,1X2,Lost,Mixed sports,Mixed leagues,"2-2,1-5,25-6",Ez a köcsög román megint elment..,8,1
-66,"petroul-bukarest,Lodz-Lubin",2025.07.19,5.79,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,1-0",tuti jött..,7,1
-67,"petroul-bukarest,Bohemians-Ostrava",2025.07.19,6.73,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,1-0",tuti jött..,7,1
-68,"petroul-bukarest,Viking-Bodö",2025.07.19,7.45,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-4",tuti jött..,7,1
-69,"Spanyolország-Montenegró, Görög-Olasz",2025.07.20,9.28,3000.0,1X2,Lost,Water polo,World Cup qualification,0-0-0-0,"Görögök nyertek, én x-re tettem.",6,1
-70,"Spanyolország-Montenegró, Gallon-Bruges",2025.07.20,4.28,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-1-2,Nem adták meg a döntetlent érő gólt...,8,1
-71,"Spanyolország-Montenegró, Maybi-AIK",2025.07.20,4.32,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-2-0,Az x nem jött..,7,1
-72,"USA-Görögország, Varna-Berave",2025.07.21,4.79,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
-73,"USA-Görögország, Marine-Hakka",2025.07.21,5.06,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
-74,"USA-Görögország, Nörkopping-Várna",2025.07.21,5.06,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
-75,"Lincon-Drezda,Köbenhavn-Haka,Mariehamm-Haka",2025.07.21,4.95,3000.0,1X2,Won,Mixed sports,Mixed leagues,"0-1,2-0,1-1",Bejöttek! És eredeti stratégia szerint!,7,1
-76,"Lincon-Drezda,Köbenhavn-Haka,Nörköping-Várna",2025.07.21,4.88,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-0,3-1",Nem jött..,7,1
-77,"Hamrun-Kijev,Plezn-Servette,NOAH-FTC, Kupio-Kazan,Szerb-Magyar",2025.07.22,49.06,1000.0,1X2,Lost,Mixed sports,Mixed leagues,1-7,"Próba volt, érzés. Nem jött be több sem.",6,1
-78,"Hamrun-Kijev,Plezn-Servette,NOAH-FTC, Kupio-Kazan",2025.07.22,7.54,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,1-7,5-0,2-0",Nagyon benéztem a Kazanyt és a Plezn-t!,7,1
-79,"Várna-Beroe,Lincon-Drezda,Köbenhavn-Drita",2025.07.21,4.51,3000.0,1X2,Won,Football,Mixed leagues,"0-0,0-1,2-0",Bejöttek! És eredeti stratégia szerint!,7,1
-80,"LechPozan-Breidabbik,Rieka-Ludogorec,Rngers-Panatinaikosz",2025.07.22,5.52,3000.0,1X2,Lost,Football,BL,"5-1,0-0,2-0",Nem jött..,7,1
-81,"Görög-Magyar, Zira-Hajduk split",2025.07.23,8.84,3000.0,1X2,Lost,Mixed sports,World Cup qualification,"0-0,1-1",Vizi nem jött..,6,1
-82,"Bergen-Salzburg,Thorvan-Brönby",2025.07.23,4.8,3000.0,1X2,Lost,Football,EL,"1-4,0-0",nem jött..,7,1
-83,"Thorvan-Brönby, Tallin-Iberia",2025.07.23,4.16,3000.0,1X2,Lost,Football,EL,"0-0,1-1",nem jött..,7,1
-84,"Thorvan-Brönby, Shelburne-Quarabag",2025.07.23,5.24,3000.0,1X2,Lost,Football,BL,"0-0,0-3",nem jött..,5,1
-85,"USA-Spanyol,Zira-Hajduk",2025.07.23,8.26,3000.0,1X2,Lost,Mixed sports,Mixed leagues,"12-13,1-1",Vizi nem jött..,6,1
-86,"Aktobe-Sparta-Praha,Joseph-Shamrock",2025.07.24,2.84,10000.0,1X2,Lost,Football,KL,"2-1,0-4",Sparta Praha.. Eltértem megint a tematikától..,8,1
-87,"Mitjyland-Hibernian,Decic-Rapid,Flora-AIK",2025.07.24,2.08,12530.0,1X2,Lost,Football,EL,"1-1,0-2,0-2",Midjíland.. Eltértem megint a tematikától..,8,1
-88,"Tirapol-Uhrect,Anderlecht-Hacken",2025.07.24,2.64,7860.0,1X2,Won,Football,EL,"1-3,1-0",Bejött.. Eltértem megint a tematikától..,8,1
-89,Berove-Ludogorec,2025.07.25,4.25,3000.0,1X2,lost,Football,Bulgária,0-1,Az utolsó percben ment el..,7,1
-90,"újpest-Diósgyőr,Nyíregyháza-Kisvárda",2025.07.25,4.77,3000.0,1X2,Won,Football,NB 1,"3-1,2-0",,7,1
-91,"Ejsberg-Hidrove, Kilmarnock-Eastfife",2025.07.26,4.13,3000.0,1X2,Lost,Football,Mixed leagues,2-1,Elment a Dán,7,1
-92,"Hilleröd-Alborg,Kilmarnock-Elife",2025.07.26,4.01,3000.0,1X2,Won,Football,Mixed leagues,"2-2,4-0",bejött az eredeti stratégia szerint..,7,1
-93,"Kilmarnock-Elife, Tobol-Almati",2025.07.26,3.77,3000.0,1X2,Lost,Football,Mixed leagues,"4-0,0-3",elment..,7,1
-94,"ZTE-Debrecen, DAC-Michalove",2025.07.26,4.34,2793.0,1X2,Lost,Football,Mixed leagues,"3-3,1-1",A nagy DAC nem nyert..,7,1
-95,"Gnack-Pozan,Mtk-FTc",2025.07.26,5.78,3000.0,1X2,Lost,Football,Mixed leagues,2-4.1-1,elment mind a kettő..,6,1
-96,Tatran-Slovan,2025.07.26,6.68,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
-97,Tatran-Slovan,2025.07.26,7.39,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
-98,Tatran-Slovan,2025.07.26,7.19,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
-99,"Bryne-Viking, Voitsberg-Wien, AIK-Öster",2025.07.27,4.3,3000.0,1X2,Lost,Football,Mixed leagues,"1-3,3-2,1-1",A lilagecik..,7,1
-100,Paks-Győr,2025.07.27,4.1,5000.0,1X2,Won,Football,NB 1,3-3,Bejött..,7,1
-101,Spartak-Subotina,2025.07.27,3.25,4000.0,1X2,Lost,Football,Allsvenskan,1-3,elment. 88.percig jó volt..,7,1
-102,Videoton-Honvéd,2025.07.28,3.5,3000.0,1X2,Lost,Football,NB 1,0-3,Benéztem,7,1
-103,Elfsborg-Göteborg,2025.07.28,3.65,3000.0,1X2,Lost,Football,Allsvenskan,4-3,Utolsó pillanatban ment el..,7,1
-104,"Katowice-Lubin, Kijev-Hamrun",2025.07.29,3.95,3000.0,1X2,Won,Football,Mixed leagues,"3-3,3-0",Bejött,7,1
-105,"bukarest-Shkjeinda, FTC-NOAH",2025.07.30,5.07,3000.0,Cards,Lost,Football,BL,4-3,Nem esett piros lap..,7,1
-106,"Ludogorec-Rieka, FTC-NOAH",2025.07.30,4.21,3000.0,Cards,Won,Football,BL,4-3,Volt piros lap.,7,1
-107,"Panatinaikos-Rangers, FTC-NOAH",2025.07.30,5.14,3000.0,1X2,Lost,Football,BL,4-3,Nem esett piros lap..,7,1
-108,Puskás-Limaszol,2025.07.31,3.5,3000.0,1X2,Lost,Football,KL,0-2,Nem tudott a puskás rugni egyet sem..,7,1
-109,"Helsinki-Artmand, Hibernian-Midtyland",2025.07.31,3.13,5000.0,1X2,Lost,Football,NB 1,"1-1,0-0",MEGÉRDEMLEM!!!!!!!!!!!!!!,9,1
-110,Velje-Odenese,2025.08.01,3.55,4000.0,1X2,Lost,Football,Dánia,4-0,nem nyert...,7,1
-111,DVSC-MTK,2025.08.01,3.85,4000.0,1X2,Lost,Football,NB 1,1-0,nem nyert...,7,1
-112,Schalke-Herta,2025.08.01,3.5,4000.0,1X2,Lost,Football,Bundesliga2,2-1,nem nyert...,7,1
-113,Essen-1860,2025.08.01,3.4,4000.0,1X2,Won,Football,Bundesliga3,1-1,Bejött,7,1
-114,Lubin-Korona,2025.08.01,3.35,4051.0,1X2,Won,Football,Lengyel1,1-1,Bejött,7,1
-115,"FTC-Kazincbarcika, Teplice-Bohemians",2025.08.02,4.38,4000.0,1X2,Lost,Football,Mixed leagues,"3-0,3-0",Elment,7,1
-116,"FTC-Kazincbarcika, Lathi-Ekanes",2025.08.02,4.45,4400.0,1X2,Lost,Football,Mixed leagues,"3-0,3-1",Elment,7,1
-117,"FTC-Kazincbarcika, Tbb-Pogon",2025.08.02,4.57,4000.0,1X2,Won,Football,Mixed leagues,"3-0,1-1",bejött,7,1
-118,"Elvsberg-Nürnberg, Osijek-DinamoZagreb",2025.08.02,6.17,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-2",Elment,7,1
-119,"Osijek-DinamoZagreb,Kilmarnok-Lingviston",2025.08.02,5.67,4000.0,1X2,Won,Football,Mixed leagues,"0-2,2-2",bejött- jól hozott!,7,1
-120,"Osijek-DinamoZagreb,Cottbus-Sandörksen",2025.08.02,5.76,3000.0,1X2,Won,Football,Mixed leagues,"0-2,3-3",bejött,7,1
-121,Diósgyőr-ZTE,2025.08.02,3.8,3000.0,1X2,Won,Football,NB 1,2-2,bejött,7,1
-122,"Bilefeld-Düsseldorf,Padeborn-Holstein",2025.08.02,13.69,771.0,1X2,Lost,Football,Bundesliga2,"5-1,2-1",Elment,4,1
-123,Kisvárda-Paks,2025.08.03,3.9,3000.0,1X2,Lost,Football,NB 1,1-5,elment..,7,1
-124,Puskás-nyíregyháza,2025.08.03,3.9,3000.0,1X2,Lost,Football,NB 1,3-2,elment..,7,1
-125,Rapid-Linz,2025.08.03,3.55,3000.0,1X2,Lost,Football,Ausztria1,1-0,elment..,6,1
-126,Dukla-Ostrava,2025.08.03,3.55,3000.0,1X2,Won,Football,Cseh1,1-1,bejött,7,1
-127,Wehen-Ulm,2025.08.03,4.45,3000.0,1X2,Lost,Football,Bundesliga3,2-1,elment..,7,1
-128,Győr-Újpest,2025.08.03,3.6,4000.0,1X2,Won,Football,NB 1,1-1,bejött,7,1
-129,"Niger-Guiena,Ilves-Cigan",2025.08.04,4.04,4000.0,1X2,lost,Football,Mixed leagues,"1-2,1-1",Egyik sem jött be..,7,1
-130,"Uganda-Algéria,Ilves-Cigan",2025.08.04,4.17,4000.0,1X2,Lost,Football,Mixed leagues,"0-2,2-2",Egyik sem jött be..,7,1
-131,"Napoli-Cingeri,Hvidvore-Horsens",2025.08.04,3.59,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,0-0",Sajnos a Napoli cigány bunda..,6,1
-132,"Napoli-Cingeri,Herts-Abedeen",2025.08.04,4.05,3764.0,1X2,Lost,Football,Mixed leagues,"1-1,2-0",Sajnos a Napoli cigány bunda..,6,1
-133,Novi-Beograd,2025.08.04,3.35,4000.0,1X2,Lost,Football,Bulgária,1-3,Nem jött be,7,1
-134,Helsinki-Inter Turku,2025.08.04,3.75,4000.0,1X2,Lost,Football,Finn1,1-4,Nem jött be,7,1
-135,Hvidvore-Horsens,2025.08.04,3.15,4000.0,1X2,Won,Football,Dánia2,0-0,Bejött,7,1
-136,Herts-Abedeen,2025.08.04,3.75,4000.0,1X2,lost,Football,Skócia,2-0,Nem jött be,7,1
-137,"Kongó-Szudán, Hamrun-Maccabi",2025.08.05,4.02,3000.0,1X2,Won,Football,Mixed leagues,"0-0,1-2",bejött,7,1
-138,"Szenegál-Nigéria, Hamrun-Maccabi",2025.08.05,3.82,3600.0,1X2,Lost,Football,Mixed leagues,"1-0,1-2",elment..,7,1
-139,Skejinda-Quarabag,2025.08.05,3.35,4000.0,1X2,Lost,Football,BL,0-1,elment..,7,1
-140,Rangers-Plezn,2025.08.05,3.65,4000.0,1X2,Lost,Football,BL,3-0,elment..,7,1
-141,Malmő-Köbenhavn,2025.08.05,3.2,4000.0,1X2,Won,Football,BL,0-0,bejött,7,1
-142,Klaskiv-Nyman,2025.08.05,3.3,4000.0,1X2,Lost,Football,KL,2-0,elment..,7,1
-143,"Rieka-Shelborune, Burkinafaso-Középafrika",2025.08.06,3.74,4000.0,1X2,Lost,Football,Mixed leagues,"1-2,4-2",Jól elment..,7,1
-144,"Rieka-Shelborune, Mauritánia-Tanzánia",2025.08.06,3.81,4000.0,1X2,Lost,Football,Mixed leagues,"1-2,0-1",Jól elment..,7,1
-145,Almati-slovan,2025.08.06,3.25,4000.0,1X2,Lost,Football,Mixed leagues,1-0,elment..,7,1
-146,Salzburg-Bruges,2025.08.06,3.65,4000.0,1X2,Lost,Football,BL,0-1,elment..,7,1
-147,Pozan-Drezda,2025.08.06,3.6,4000.0,1X2,Lost,Football,BL,1-3,elment..,7,1
-148,Rigas-Kupio,2025.08.06,3.65,3878.0,1X2,Lost,Football,BL,1-2,elment..,7,1
-149,Basel-YoungBoys,2025.08.06,3.95,4000.0,1X2,Lost,Football,Svájc1,3-1,elment..,7,1
-150,"Frediksan-Mityland,Anderlecht-Serif",2025.08.07,4.77,3000.0,1X2,Lost,Football,EL,"1-3,2-0",elment..,7,1
-151,"Anderlecht-Serif, Kongó-Zambia",2025.08.07,3.59,3000.0,1X2,Lost,Football,Mixed leagues,"2-0, 2-0",elment..,7,1
-152,"Anderlecht-Serif, Kolozsvár-Braga",2025.08.07,4.34,3000.0,1X2,Lost,Football,Mixed leagues,"2-0, 1-2",elment..,7,1
-153,"Anderlecht-Serif, Ostrava-wien",2025.08.07,4.27,3000.0,1X2,Lost,Football,EL,"2-0, 4-3",elment..,7,1
-154,Hacken-Branberg,2025.08.07,3.7,3000.0,1X2,Lost,Football,KL,0-2,elment..,7,1
-155,Laranca-Varso,2025.08.07,3.4,3000.0,1X2,Lost,Football,EL,4-1,elment..,7,1
-156,Limaszol-Aek,2025.08.07,3.35,3000.0,1X2,Won,Football,EL,2-2,bejött..,7,1
-157,AIK-Győr,2025.08.07,4.1,3000.0,1X2,Lost,Football,KL,2-1,elment..,7,1
-158,Partizan-Hibernian,2025.08.07,3.8,4000.0,1X2,lost,Football,NB 1,0-2,elment..,7,1
-159,Rapid-Dundee,2025.08.07,5.25,4000.0,1X2,Won,Football,EL,2-2,bejött..,7,1
-160,Servette-Uhrect,2025.08.07,3.6,4000.0,1X2,Lost,Football,EL,1-4,elment..,7,1
-161,PAOK-Wolfsberg,2025.08.07,7.75,4000.0,1X2,Lost,Football,EL,0-0,elment..,9,1
-162,"Kazincbarcika-DVSC, Casapia-Sporting",2025.08.08,3.29,3050.0,1X2,Won,Football,Mixed leagues,"1-2,0-2",bejött..,7,1
-163,"Kazincbarcika-DVSC, Sttruiden-Dender",2025.08.08,8.37,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-0",elment..,7,1
-164,Sittard-Eagles,2025.08.08,3.5,3000.0,1X2,Won,Football,Holland,2-2,bejött..,7,1
-165,"Ümreanyispor-Manisa, Gazintep-Galatasaray",2025.08.08,4.64,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,0-3",elment..,7,1
-166,"Münster-Paderborn,Metaglobus-dinamobukarest",2025.08.08,4.42,3000.0,1X2,Won,Football,Mixed leagues,"1-1,0-1",bejött..,7,1
-167,Nürnberg-Damstadt,2025.08.08,3.85,3000.0,1X2,Lost,Football,Bundesliga2,0-1,elment..,7,1
+357,"Notthingham forest-Mancity, Lingviston-Celtic",2025.12.27,2.23,5482.0,1X2,won,Football,Mixed League,"1-2,2-4","Cash out volt az eredeti odds 2,31 volt.",8,2
+358,"Antwerpen-Waregnem, Parma-Fiorentina",2025.12.27,4.22,5000.0,1X2,Lost,Football,Mixed League,"2-1,1-0",Rohadt lilák elvitték..,8,2
+359,Bari-Avellino,2025.12.27,2.57,7000.0,1X2,Lost,Football,Seria A,1-1,Eléggé biztos voltam benne pedig..,10,1
+356,"Manutd-Newcastle, Millwall-Ipswich town, Egyiptom-Délafrika, Modena-Monza",2025.12.26,29.13,9900.0,Yankee,Lost,Football,Mixed League,"1-0, 0-0, 1-0, 2-1",Először próbáltam ezt a Yeankee-t.. 1 jött csak be belőle..,7,4
+355,"Kamerun-Gabon, Elefántcsontpart-Mozambik, Samsunspor-Eyuspor",2025.12.24,28.17,400.0,1X2,Lost,Football,Mixed League,"1-0,1-0,2-1",,6,3
+353,Kongó-Benin,2025.12.23,3.33,4000.0,1X2,Lost,Football,World Cup qualification,1-0,,6,1
+352,"Egyiptom-Zimbabwe, Panseraikos-Levandiakos",2025.12.22,2.14,10000.0,1X2,Won,Football,Mixed leagues,"0-2, 2-1",Necces volt..,8,1
+349,"Celtic-Aberdeen, Uhtrecht-PSV",2025.12.21,2.33,10000.0,1X2,Won,Football,Mixed leagues,"3-1, 1-2",,10,1
+350,"újpest-Barcika, Entella-Tirol, Volendam-Sparta rotterdam",2025.12.21,4.87,5000.0,1X2,Won,Football,Mixed leagues,"2-1, 1-1, 0-1",,7,1
+351,"DVSC-Kisvárda, Volendam-Sparta Rotterdam",2025.12.21,4.72,5000.0,1X2,Lost,Football,Mixed leagues,"0-1, 0-1",debrecen..,8,1
+348,"Paks-Nyíregyháza, Mancity-Westham",2025.12.20,2.04,10000.0,1X2,Won,Football,Mixed leagues,"2-1, 3-0",,10,1
+347,"DVTK-FTC,Dortmund-Mönthengladbah",2025.12.19,2.23,10000.0,1X2,Won,Football,Mixed leagues,"0-1, 2-0",,10,1
+343,"Roma-Como, Porto-Amadora",2025.12.15,3.73,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,3-1",,8,1
+344,"Porto-Amadora, Sheffield-Derby Country",2025.12.15,3.99,3000.0,1X2,Lost,Football,Mixed leagues,"3-1, 0-3",,8,1
+345,"Rayo-Betis, Porto-Amadora",2025.12.15,3.34,3000.0,1X2,Lost,Football,Mixed leagues,"0-0, 3-1",,8,1
+346,Manutd-Bormouth,2025.12.15,4.3,3000.0,1X2,Won,Football,Premier League,4-4,,8,1
+338,"Palace-Man city, Milan-Sassuolo",2025.12.14,2.86,5000.0,1X2,Lost,Football,Mixed leagues,"0-3, 2-2",,8,1
+339,"Milan-Sassuolo, Lens-Nice, Panaitikolos-Athen",2025.12.14,3.25,5000.0,1X2,Lost,Football,Mixed leagues,"2-2, 2-0, 0-5",Milan tudható volt..,6,1
+340,"Kisvárda-ZTE, Westham-Aston villa",2025.12.14,5.95,2200.0,1X2,Lost,Football,Mixed leagues,"3-3, 2-3",,8,1
+341,"FTC-DVSC, Chaerloi-Royal",2025.12.14,4.37,5000.0,1X2,Lost,Football,Mixed leagues,"0-1, 1-1",,8,1
+342,"Chaerloi-Union, Morerise-Benfica",2025.12.14,2.67,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,0-4",,8,1
+334,"Puskás-DVTK, Barcelona-Osasuna, Sporting-AVS",2025.12.13,2.2,5000.0,1X2,Won,Football,Mixed leagues,"2-1,2-0,6-0",,8,1
+335,"Barcelona-Osasuna, Grazer-Lask",2025.12.13,2.56,5000.0,1X2,Won,Football,Mixed leagues,"2-0,1-2",,8,1
+336,"Metz-PSG, Nyíregyháza-ETO",2025.12.13,2.43,5000.0,1X2,Won,Football,Mixed leagues,"2-3,0-1",,8,1
+337,"Metz-PSG, MTK-újpest",2025.12.13,3.25,5000.0,1X2,Won,Football,Mixed leagues,"2-3, 0-1",,8,1
+333,"Quarabag-Ajax,Dortmund-Bodö",2025.12.10,2.81,5000.0,1X2,Lost,Football,BL,"2-4,2-2",,8,1
+332,"Heidenheim-Freiburg,Nantes-Lens",2025.12.06,3.09,10000.0,1X2,Lost,Football,Mixed leagues,"2-1,1-2",,8,1
+329,"Arhaus-Köbenhavn, Chelsea-Arsenal",2025.11.30,3.51,2500.0,1X2,Lost,Football,Mixed leagues,"2-0,1,1",,8,1
+330,"Chelsea-Arsenal, Arhaus-köbenhavn",2025.11.30,3.54,2500.0,1X2,Lost,Football,Mixed leagues,"1-1,2-0",,8,1
+331,"Chelsea-Arsenal, Girona-Real",2025.11.30,2.0,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",,8,1
+327,"ZTE-Paks,OM-Touluse",2025.11.29,5.76,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-2",,8,1
+328,"OM-Touluse, Barcika-DVTK",2025.11.29,3.84,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,1-1",,8,1
+326,"Nyíregyháza-DVSC,Spanyol-Feörrer",2025.11.28,3.71,5000.0,1X2,Lost,Mixed sports,Mixed leagues,"0-3,20-30",,9,1
+325,"Porto-Nice, Fenerbache-FTC",2025.11.27,2.34,10000.0,1X2,Lost,Football,EL,"3-0,1-1",,9,1
+324,"OM_Newcastle,Slacia-ATL.bilbao",2025.11.25,5.73,1500.0,1X2,Lost,Football,BL,"0-0,2-1",,7,1
+322,Manudt-Everton,2025.11.24,4.0,1500.0,1X2,Lost,Football,Premier League,0-1,,8,1
+323,"Sampdoria-Stabbia,Torino-Como",2025.11.24,9.37,1000.0,1X2,Lost,Football,Seria B,"1-0,1-5",,6,1
+317,"Verona-Parma,Echle-RealMadrid",2025.11.23,4.28,2000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-2",,8,1
+318,"Köbenhavn-Brönby, Aberden-Hearts",2025.11.23,7.18,2000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",,8,1
+319,"Auxerre-Lyon,Panseraikos-Panathinaikos, Echle-Real",2025.11.23,4.25,2000.0,1X2,Lost,Football,Mixed leagues,"0-0,0-3,2-2",,8,1
+320,"Heverle-St.Truiden,Echle-Real",2025.11.23,4.61,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-2",,8,1
+321,"Echle-Real,Inter-Milan",2025.11.23,4.68,2000.0,1X2,Lost,Football,Mixed leagues,"2-2,0-1",,8,1
+312,"Puskás-Kisvárda,Cagliari-Genoa",2025.11.22,5.39,1500.0,1X2,Won,Football,Mixed leagues,"2-0,3.3",,8,1
+313,"Puskás-Kisvárda,Avellino-Emploi",2025.11.22,5.88,1500.0,1X2,Lost,Football,Mixed leagues,5.88,,8,1
+314,"Udeinese-Bologna, Lens-Strasburg",2025.11.22,6.85,1500.0,1X2,Lost,Football,Mixed leagues,"1-0,0-3",,8,1
+315,"Lens-Strasburg,Entella-Palermo",2025.11.22,6.21,1500.0,1X2,Won,Football,Mixed leagues,"1-0,1-1",,8,1
+316,"Napoli-Atalanta,Stmiren-Celtic",2025.11.22,4.47,2400.0,1X2,won,Football,Mixed leagues,"3-1,0-1",,8,1
+310,"Bastia-Reims,Clermont-Amiens,Grenoble-Rodez,nancy-Laval",2025.11.07,46.56,15500.0,1X2,Lost,Football,Mixed leagues,"1-3,2-1,2-1,1-0,0-2",,8,1
+311,"Finnország-Málta,Szlovakia-Északírország",2025.11.04,3.04,5000.0,1X2,Lost,Football,World Cup qualification,"0-1,1-0",,8,1
+309,"DVSC-ZTE, Fiorentina-Lecce, Sampdoria-Mantova",2025.11.02,6.97,10000.0,1X2,Lost,Football,Mixed leagues,"2,-1,0-1,0,1",,8,1
+304,"Mantova-Catanzaro,Lorient-PSG",2025.10.29,4.0,1000.0,1X2,Lost,Football,Mixed leagues,1-3-1-1,,8,1
+305,"Lorient-PSG, Venezia-Tirol",2025.10.29,4.58,1000.0,1X2,Lost,Football,Mixed leagues,"1-1,3-0",,8,1
+306,Como-Verona,2025.10.29,3.6,1000.0,1X2,Lost,Football,Seria A,3-1,,8,1
+307,"FTC-Békéscsaba, Lorient-PSG",2025.10.29,3.93,1000.0,1X2,Lost,Football,Mixed leagues,"4-0,1-1",,8,1
+308,"Metz-Lens,Lorient-PSG",2025.10.29,5.94,1000.0,1X2,Lost,Football,Ligue 1,"2-0,1-1",,8,1
+301,Manutd-Brighton,2025.10.25,3.84,3000.0,1X2,Lost,Football,Premier League,4-2,,8,1
+302,Valencia-Villareal,2025.10.25,3.63,4000.0,1X2,Lost,Football,La Liga,0-2,,8,1
+303,Lens-Marseille,2025.10.25,3.6,4000.0,1X2,Lost,Football,Ligue 1,2-1,,8,1
+300,"FTC-Kalskrona, Elverum-Kriens, Andora-Szerbia",2025.10.14,2.5,10000.0,1X2,Lost,Mixed sports,Mixed leagues,"2-1,2-1",,8,1
+299,Feörer-Csehorsztág,2025.10.12,1.7,10000.0,1X2,Lost,Football,World Cup qualification,"2-1,2-1",,8,1
+297,"Finnország-Litvánia, Burundi-Kenya",2025.10.09,4.59,3000.0,1X2,Lost,Football,World Cup qualification,"2-1,0-1",elment,7,1
+298,"Finnország-Litvánia, Libéria-Namíbia",2025.10.09,4.9,3000.0,1X2,Lost,Football,World Cup qualification,"2-1,3-1",elment,7,1
+293,"Grazer-Wolfsberg, Austriawien-Linz",2025.10.04,3.51,10000.0,1X2,Lost,Football,Ausztria1,"1-3,1-2",Geci lilák..,8,1
+294,"Sevilla-Barcelona, Krím-FTC, Kalifa-AEK",2025.10.04,2.7,10000.0,1X2,Lost,Football,Mixed leagues,"4-1,22-35,2-3",Szarbarca,8,1
+295,"Honved-Tiszacsécske, Az alkmar -Teslar, Celtavigo-AtleticoMadrid",2025.10.04,3.47,10000.0,1X2,Lost,Football,Mixed leagues,"1-1,4-1,1-1",elment..,8,1
+296,"Sociead-Rayo, Celtavigo-Atl.Madrid",2025.10.04,4.79,3600.0,1X2,Lost,Football,La Liga,"0-1,1-1",elment,6,1
+292,"Verona-Sassuolo, Bormouth-Fullham",2025.10.03,6.72,5000.0,1X2,Won,Football,Mixed leagues,"0-1,3-1",bejött,9,1
+291,"ZTE-Kazincbarcika, St.Pauli-Leverkusen",2025.09.27,4.29,5000.0,1X2,Lost,Football,Mixed leagues,"5-0,2-1",elment..,8,1
+289,"Venezia-Cesena,Brest-Nice",2025.09.20,7.54,3000.0,1X2,Lost,Football,Mixed leagues,"2-2,4-1",A Nice-t nagyon benéztem.,7,1
+290,"Reggina-Catanzaro, Brest-Nice",2025.09.20,7.3,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,4-1",A Nice-t nagyon benéztem.,7,1
+288,"Real Madrid_OM, Benfica-Quaragab, Atl.Bilbao-Arsenal",2025.09.16,3.27,1500.0,1X2,Lost,Football,BL,"2-1,2-3,0-2",elment..,8,1
+287,"Espanyol-Mallorca, AIK-Borohumma",2025.09.15,5.76,5000.0,1X2,Lost,Football,Mixed leagues,"2-1,2-1",elment..,7,1
+286,"Burnly-Liverpool, Atalanta-Lecce, Barcelona-Valencia",2025.09.14,2.64,5000.0,1X2,Won,Football,Mixed leagues,"0-1,3-1,6-0","bejött, de nem írták jóvá:))",8,1
+285,"Örményország-Írország, Azerbajdzsán-Ukrajna",2025.09.09,3.0,5000.0,1X2,Lost,Football,World Cup qualification,2-1-1-1,elment..,8,1
+284,"AEK-Tripolisz, Rangers-Celtic",2025.08.31,2.46,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-0",elment..,7,1
+283,"Salzburg-Linz, Bologna-Como",2025.08.30,4.22,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-0",elment..,7,1
+274,Hamburg-St.pauli,2025.08.29,3.45,4000.0,1X2,Lost,Football,Bundesliga,0-2,elment..,7,1
+275,"Lemgo-Magdeburg,Valencia-Getafe",2025.08.29,3.93,4000.0,1X2,Lost,Mixed sports,Mixed leagues,"29-33,3-0",elment..,7,1
+276,Echle-Levante,2025.08.29,3.25,4000.0,1X2,Lost,Football,La Liga,2-0,elment..,7,1
+277,"Vanspor-Bandiaspor,GDyna-Wisla",2025.08.29,8.28,3720.0,1X2,Lost,Football,Mixed leagues,"1-2,1-0",elment..,7,1
+278,"Sayizer-Enzurum, Lens-Brest",2025.08.29,6.01,5000.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",elment..,7,1
+279,"Reggina-Empoli, Cremonese-Sassuolo",2025.08.29,4.54,4000.0,1X2,Lost,Football,Mixed leagues,"3-1,3-2",elment..,7,1
+280,"Viktoriaköln-Regensburg,Paks-Kazincbarcika",2025.08.29,4.89,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,3-0",elment..,7,1
+281,Milan-Lecce,2025.08.29,4.05,3000.0,1X2,Lost,Football,Seria A,0-2,elment..,7,1
+282,Paks-Kazincbarcika,2025.08.29,3.9,6000.0,1X2,Lost,Football,NB 1,3-0,elment..,7,1
+271,"Rapid-Győr, Ostrava-Celje",2025.08.28,4.46,4000.0,1X2,Lost,Football,KL,"2-0,0-2",elment..,8,1
+272,"Athen-Anderlecht,Uhtrecht-Zsitomir",2025.08.28,3.42,4000.0,1X2,Lost,Football,KL,"2-0,0-0",elment..,8,1
+273,"Youngboys-slovan,Azalkmar-Levszkiszofia",2025.08.28,2.59,8000.0,1X2,Won,Football,EL,"3-2,4-1",bejött,8,1
+269,"Riga-Spartaprha,Celtavigo-Betis",2025.08.27,7.2,3184.0,1X2,Lost,Football,Mixed leagues,"1-0,1-1",elment..,7,1
+270,"Riga-Spartaprha,Köbenhavn-Basel",2025.08.27,8.2,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-0",elment..,7,1
+265,Madagaszkár-Szudán,2025.08.26,2.8,8800.0,1X2,Won,Football,World Cup qualification,1-1,bejött,7,1
+266,Marokkó-Szenegál,2025.08.26,3.05,8913.0,1X2,Won,Football,World Cup qualification,0-0,bejött,7,1
+267,"Almati-Celtic, Pafos-cvndrezda",2025.08.26,6.63,4000.0,1X2,Lost,Football,BL,"0-0,1-1",elment..,7,1
+268,"Pafos-cvndrezda, Braunwseigh-Stuttgart",2025.08.26,4.68,4640.0,1X2,lost,Football,Mixed leagues,"1-1,3-3",elment..,7,1
+260,"Vasas-Tiszakécske, Sampdoria-Modena",2025.08.25,4.95,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-2",elment..,7,1
+261,"Vasas-Tiszakécske, Ejüspor-Alanyaspor",2025.08.25,5.29,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-1",elment..,7,1
+262,"Vasas-Tiszakécske, Wisla-Lubin",2025.08.25,5.54,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-1",elment..,7,1
+263,Cordoba-laspalmas,2025.08.25,3.2,4000.0,1X2,Lost,Football,La Liga 2,1-3,elment..,7,1
+264,Pau-Reims,2025.08.25,3.5,4000.0,1X2,Lost,Football,Ligue 2,2-0,elment..,7,1
+251,"Bielefeld-Dresda, St.mirren-Rangers",2025.08.24,3.41,10000.0,1X2,Lost,Football,Mixed leagues,"1-2,1-1",elment..,7,1
+252,"Wolflberg-Rapid, Lorient-Rennes",2025.08.24,6.7,3545.0,1X2,Lost,Football,Mixed leagues,"1-2,4-0",elment..,8,1
+253,"Fullham-Utd, Juventus-Parma",2025.08.24,5.36,3000.0,1X2,Won,Football,Mixed leagues,"1-1,2-0",bejött,7,1
+254,"Ossasuna-Valencia, Juventus-Parma",2025.08.24,4.7,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-0",elment..,7,1
+255,Everton-Brighton,2025.08.24,3.4,4000.0,1X2,Lost,Football,Premier League,2-0,elment..,7,1
+256,Strasburg-Nantes,2025.08.24,3.7,4000.0,1X2,Lost,Football,Ligue 1,1-0,elment..,7,1
+257,Touluse-Brest,2025.08.24,3.45,4000.0,1X2,Lost,Football,Ligue 1,2-0,elment..,7,1
+258,Gnadsk-Arka,2025.08.24,3.7,4000.0,1X2,Lost,Football,Lengyel1,1-0,elment..,7,1
+259,"Catanzaro-Südtirol, Spartapraha-Duklapraha",2025.08.24,3.9,4000.0,1X2,Won,Football,Mixed leagues,"1-1,2-1",bejött,7,1
+242,"Frankfurt-Beremen,Lynby-Horses",2025.08.23,5.35,3000.0,1X2,Won,Football,Mixed leagues,"4-1,0-0",bejött,7,1
+243,"Frankfurt-Beremen,Hannover-Magdeburg",2025.08.23,6.03,3000.0,1X2,Lost,Football,Mixed leagues,"4-1,3-1",elment..,7,1
+244,"Frankfurt-Beremen,Troyes-Montpelier",2025.08.23,5.61,3000.0,1X2,Lost,Football,Mixed leagues,"4-1,1-0",elment..,7,1
+245,"OM-Parisfc,Arsenal-Leeds",2025.08.23,3.87,3000.0,1X2,Lost,Football,Mixed leagues,"5-0,5-2",elment..,8,1
+246,"Sassuoli-Napoli,Empoli-Padova",2025.08.23,4.54,3000.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",elment..,8,1
+247,"Nice-Auxerre, Hearts-Montrewell",2025.08.23,2.99,8000.0,1X2,Lost,Football,Mixed leagues,"3-1,3-3",elment..,8,1
+248,"Plezn-Karvina, Shalke-Bochum",2025.08.23,4.47,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,2-1",elment..,7,1
+249,"Goangels-SpartaRotterdam,Nice-Auxerre",2025.08.23,7.03,2000.0,1X2,Lost,Football,Mixed leagues,"0-3,3-1",elment..,7,1
+250,"Nice-Auxerre, Mer-St Etiene",2025.08.23,3.34,10000.0,1X2,Won,Football,Mixed leagues,"3-1,0-1",bejött,8,1
+237,Alborg-Hidvore,2025.08.22,3.5,4000.0,1X2,Lost,Football,Dánia,4-0,elment..,7,1
+238,"Lemans-Bastia, Puskás-Debrecen",2025.08.22,5.44,3744.0,1X2,Lost,Football,Mixed leagues,"1-0,1-3",elment..,7,1
+239,"Westham-Chelsea,Pescara-Cesena",2025.08.22,5.67,4000.0,1X2,Lost,Football,Mixed leagues,"1-5,1-3",elment..,7,1
+240,Elvesberg-Kaiserlautern,2025.08.22,3.55,4000.0,1X2,Lost,Football,Bundesliga2,2-1,elment..,7,1
+241,Münster-Nürnberg,2025.08.22,3.4,4000.0,1X2,Lost,Football,Bundesliga2,2-1,elment..,7,1
+235,"Anderlecht-Athen, Zsitomir-Uhtrect",2025.08.21,3.58,3000.0,1X2,Lost,Football,KL,"1-1,0-2",elment..,8,1
+236,"Szofia-Azalkmar,Leczpozan-Genk",2025.08.21,4.57,3000.0,1X2,Won,Football,EL,"0-2,1-5",bejött,8,1
+231,"Celtic-Kalmati,Arhaus-Kolding",2025.08.20,4.11,4000.0,1X2,Lost,Football,Mixed leagues,"0-0,2-2",A tuti elment..,7,1
+232,"Celtic-Kalmati,Hornes-Alborg",2025.08.20,4.23,4000.0,1X2,Lost,Football,Mixed leagues,"0-0,0-1",A tuti elment..,7,1
+233,"Celtic-Kalmati,Hobro-Horsens",2025.08.20,4.23,4000.0,1X2,Lost,Football,Mixed leagues,0-0.0-1,A tuti elment..,7,1
+234,Győr-Rapidwien,2025.08.20,2.8,5000.0,1X2,Won,Football,KL,2-1,bejött,8,1
+228,"RealMadrid-Ossasuna,Kögen-Köbenhavn2",2025.08.19,4.69,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-1",elment..,7,1
+229,"RealMadrid-Ossasuna,Ejsberg-Alborg",2025.08.19,4.57,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
+230,"RealMadrid-Ossasuna,Lungby-Hilleröd",2025.08.19,4.31,3909.0,1X2,Lost,Football,Mixed leagues,"1-0,1-2",elment..,7,1
+221,"RealMadrid-Ossasuna,Kecskemét-Videoton",2025.08.18,4.5,4000.0,1X2,Lost,Football,Mixed leagues,3-1,elment..,7,1
+222,"RealMadrid-Ossasuna,Odenese-Arhaus",2025.08.18,4.31,4000.0,1X2,Lost,Football,Mixed leagues,1-5,elment..,7,1
+223,"RealMadrid-Ossasuna,Lemans-Montpelier",2025.08.18,4.18,4000.0,1X2,Lost,Football,Mixed leagues,1-2,elment..,7,1
+224,"Persepolis-Seapasi,Leeds-Everton",2025.08.18,4.25,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-0",IRÁNI LIGÁRA SOHA TÖBBÉ!!!,7,1
+225,"Persepolis-Seapasi,Echle-Betis",2025.08.18,4.31,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",IRÁNI LIGÁRA SOHA TÖBBÉ!!!,7,1
+226,"Dortmund-Essen,Leeds-Everton",2025.08.18,4.03,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
+227,"Dortmund-Essen,Echle-Betis",2025.08.18,3.91,4000.0,1X2,Won,Football,Mixed leagues,"1-0,1-1",bejött,7,1
+210,"Chelsea-Cpalace,RealSociead2-Zaragoza",2025.08.17,5.13,3385.0,1X2,Lost,Football,Mixed leagues,"0-0,1-0",elment..,7,1
+211,"Chelsea-Cpalace,Huesca-Leganes",2025.08.17,5.04,3000.0,1X2,Lost,Football,Mixed leagues,"0-0,1-1",elment..,7,1
+212,"Chelsea-Cpalace,Vanspor-Erokspor",2025.08.17,5.74,3000.0,1X2,Lost,Football,Mixed leagues,"0-0,1-0",elment..,7,1
+213,"Manutd-Arsenal,Spartarotterdam-Uthrect",2025.08.17,6.89,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-1",elment..,7,1
+214,"Göteborg-AIK,Nantes-PSG",2025.08.17,2.96,7000.0,1X2,Won,Football,Mixed leagues,"2-1,0-1",bejött,7,1
+215,"Sporting-Aroua,Sivaspor-Bodrumspor",2025.08.17,3.9,3000.0,1X2,won,Football,Mixed leagues,"6-0,1,1",bejött,7,1
+216,"Sporting-Aroua,Manisa-Hatayaspor",2025.08.17,4.02,3000.0,1X2,Lost,Football,Mixed leagues,"6-0,2-1",bejött,7,1
+217,"Sporting-Aroua,Sakayaspor-Igdir",2025.08.17,4.02,3000.0,1X2,Lost,Football,Mixed leagues,6-0.3-2,elment..,7,1
+218,"Wolczberg-Linz,Realsociead2-Zaragoza",2025.08.17,5.97,3000.0,1X2,Lost,Football,Mixed leagues,"3-0,1,0",elment..,7,1
+219,"Wolczberg-Linz,Huesca-Leganes",2025.08.17,5.58,3000.0,1X2,Won,Football,Mixed leagues,"3-1,1-1",bejött,7,1
+220,"Wolczberg-Linz,Vanspor-Erokspor",2025.08.17,6.46,3000.0,1X2,Lost,Football,Mixed leagues,"3-1,1-0",elment..,7,1
+205,"Tottenham-Burnley, Annency-Dunkerque",2025.08.16,5.0,3000.0,1X2,Won,Football,Mixed leagues,"3-0,2-2",bejött,7,1
+206,"Tottenham-Burnley, Reims-Guingap",2025.08.16,5.15,3000.0,1X2,Lost,Football,Mixed leagues,"3-0,1-0",elment..,7,1
+207,"Tottenham-Burnley, Middfeilfrt-Köge",2025.08.16,5.0,3000.0,1X2,Won,Football,Mixed leagues,"3-0,2-2",bejött,7,1
+208,"Hartberg-Salzburg,Sariey-Boluspor",2025.08.16,4.78,3000.0,1X2,Won,Football,Mixed leagues,"1-2,1-1",bejött,7,1
+209,"Hartberg-Salzburg,FTC-Puskás",2025.08.16,5.97,3000.0,1X2,Lost,Football,Mixed leagues,"1-3,1-2",elment..,7,1
+201,"Liverpool-Bormourth, Frederica-Sönderjaen",2025.08.15,4.76,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-0",elment..,7,1
+202,"Liverpool-Bormourth, Rennes-OM",2025.08.15,5.24,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-0",elment..,7,1
+203,"Liverpool-Bormourth,Nördsenjaen-Köbenhavn",2025.08.15,5.1,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-3",elment..,7,1
+204,"Újpest-Kisvárda,Villareal-Oviedo",2025.08.15,2.83,4642.0,1X2,Lost,Football,Mixed leagues,"0-1,2-0",elment..,7,1
+200,"Uhtrecht-Servette, Győr-AIK",2025.08.14,3.48,3920.0,1X2,Won,Football,Mixed leagues,"2-1,2-0",bejött,7,1
+196,"Quarabag-Shkedina, Fenerbache-Feyenord",2025.08.12,4.92,3000.0,1X2,Lost,Football,BL,"5-1,5-2",elment..,7,1
+197,"Quarabag-Shkedina, Köbenhavn-Malmö",2025.08.12,5.66,3000.0,1X2,Lost,Football,BL,"5-1,5-0",elment..,7,1
+198,"FTC-Ludogorec, Pafos-Kijev",2025.08.12,5.94,3000.0,1X2,Lost,Football,BL,"3-0,2-0",elment..,7,1
+199,"Bruges-Salzburg,Szudán-Nigéria",2025.08.12,7.03,3000.0,1X2,Lost,Football,Mixed leagues,"3-2,4-0",elment..,7,1
+190,"Vasas-Békéscsaba, Porto-Guimares",2025.08.11,6.58,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,3-0",elment..,7,1
+191,Tranzospor-Kocailespor,2025.08.11,4.4,3000.0,1X2,Lost,Football,Török1,1-0,elment..,7,1
+192,Ameins-Reims,2025.08.11,4.0,3000.0,1X2,Won,Football,Ligue 2,2-2,bejött,7,1
+193,Odenese-Randers,2025.08.11,3.45,3000.0,1X2,Lost,Football,Dánia,3-2,elment..,7,1
+194,Helsinki-Ilves,2025.08.11,3.85,3000.0,1X2,Lost,Football,Finn1,5-1,elment..,7,1
+195,GAIS-Göteborg,2025.08.11,3.55,3000.0,1X2,Lost,Football,Allsvenskan,0-1,elment..,7,1
+180,"Midtyland-Frideriksan,ZTE-Győr",2025.08.10,5.56,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",Geci köbenszar...,7,1
+181,"POOL-Cpalace,Sturm-Rapid",2025.08.10,3.48,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,1-2",Nagyon benéztem mind a kettőt..,8,1
+182,"Louvre-Chaerloi,Zwole-Twente",2025.08.10,6.56,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
+183,"Aberdeen-Celtic,Hajduk-Gorica",2025.08.10,4.55,4000.0,1X2,Lost,Football,Mixed leagues,"0-2,2-0",elment..,7,1
+184,"újpest-Paks,Silkeborg-Nordsjenland",2025.08.10,7.51,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,4-2",elment..,7,1
+185,Köge-Alborg,2025.08.10,3.75,3000.0,1X2,Lost,Football,Dánia2,0-2,elment..,7,1
+186,Kisvárda-Puskás,2025.08.10,4.05,3000.0,1X2,Lost,Football,NB 1,2-1,elment..,7,1
+187,ZTE-Győr,2025.08.10,3.95,3000.0,1X2,Won,Football,NB 1,1-1,bejött,7,1
+188,"újpest-Paks,Standarligue-Genk",2025.08.10,6.89,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-1",elment..,7,1
+189,"Eyüspor-Konyaspor, Braga-Tondela",2025.08.10,4.07,3000.0,1X2,Won,Football,Mixed leagues,"1-4,3-0",bejött,8,1
 168,Braunscweig-Fürth,2025.08.09,3.45,3000.0,1X2,Lost,Football,Bundesliga2,3-2,elment..,7,1
 169,Dresden-Megdeburg,2025.08.09,3.6,3000.0,1X2,Lost,Football,Bundesliga3,1-2,elment..,7,1
 170,Düsseldorf-Hannover,2025.08.09,3.65,3000.0,1X2,Lost,Football,Bundesliga2,0-2,elment..,7,1
@@ -177,177 +190,169 @@ id,event,date,odds,stake,bet_type,outcome,sport,league,result,notes,confidence_s
 177,Gyida-Pogon,2025.08.09,3.6,3000.0,1X2,Lost,Football,Lengyel1,2-1,elment..,7,1
 178,Halmstadt-Sirius,2025.08.09,3.4,3000.0,1X2,Lost,Football,Allsvenskan,0-1,elment..,7,1
 179,Rangers-Dundeutd,2025.08.09,8.0,2000.0,1X2,Won,Football,Skócia1,1-1,bejött,7,1
-180,"Midtyland-Frideriksan,ZTE-Győr",2025.08.10,5.56,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",Geci köbenszar...,7,1
-181,"POOL-Cpalace,Sturm-Rapid",2025.08.10,3.48,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,1-2",Nagyon benéztem mind a kettőt..,8,1
-182,"Louvre-Chaerloi,Zwole-Twente",2025.08.10,6.56,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
-183,"Aberdeen-Celtic,Hajduk-Gorica",2025.08.10,4.55,4000.0,1X2,Lost,Football,Mixed leagues,"0-2,2-0",elment..,7,1
-184,"újpest-Paks,Silkeborg-Nordsjenland",2025.08.10,7.51,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,4-2",elment..,7,1
-185,Köge-Alborg,2025.08.10,3.75,3000.0,1X2,Lost,Football,Dánia2,0-2,elment..,7,1
-186,Kisvárda-Puskás,2025.08.10,4.05,3000.0,1X2,Lost,Football,NB 1,2-1,elment..,7,1
-187,ZTE-Győr,2025.08.10,3.95,3000.0,1X2,Won,Football,NB 1,1-1,bejött,7,1
-188,"újpest-Paks,Standarligue-Genk",2025.08.10,6.89,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-1",elment..,7,1
-189,"Eyüspor-Konyaspor, Braga-Tondela",2025.08.10,4.07,3000.0,1X2,Won,Football,Mixed leagues,"1-4,3-0",bejött,8,1
-190,"Vasas-Békéscsaba, Porto-Guimares",2025.08.11,6.58,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,3-0",elment..,7,1
-191,Tranzospor-Kocailespor,2025.08.11,4.4,3000.0,1X2,Lost,Football,Török1,1-0,elment..,7,1
-192,Ameins-Reims,2025.08.11,4.0,3000.0,1X2,Won,Football,Ligue 2,2-2,bejött,7,1
-193,Odenese-Randers,2025.08.11,3.45,3000.0,1X2,Lost,Football,Dánia,3-2,elment..,7,1
-194,Helsinki-Ilves,2025.08.11,3.85,3000.0,1X2,Lost,Football,Finn1,5-1,elment..,7,1
-195,GAIS-Göteborg,2025.08.11,3.55,3000.0,1X2,Lost,Football,Allsvenskan,0-1,elment..,7,1
-196,"Quarabag-Shkedina, Fenerbache-Feyenord",2025.08.12,4.92,3000.0,1X2,Lost,Football,BL,"5-1,5-2",elment..,7,1
-197,"Quarabag-Shkedina, Köbenhavn-Malmö",2025.08.12,5.66,3000.0,1X2,Lost,Football,BL,"5-1,5-0",elment..,7,1
-198,"FTC-Ludogorec, Pafos-Kijev",2025.08.12,5.94,3000.0,1X2,Lost,Football,BL,"3-0,2-0",elment..,7,1
-199,"Bruges-Salzburg,Szudán-Nigéria",2025.08.12,7.03,3000.0,1X2,Lost,Football,Mixed leagues,"3-2,4-0",elment..,7,1
-200,"Uhtrecht-Servette, Győr-AIK",2025.08.14,3.48,3920.0,1X2,Won,Football,Mixed leagues,"2-1,2-0",bejött,7,1
-201,"Liverpool-Bormourth, Frederica-Sönderjaen",2025.08.15,4.76,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-0",elment..,7,1
-202,"Liverpool-Bormourth, Rennes-OM",2025.08.15,5.24,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-0",elment..,7,1
-203,"Liverpool-Bormourth,Nördsenjaen-Köbenhavn",2025.08.15,5.1,3000.0,1X2,Lost,Football,Mixed leagues,"4-2,1-3",elment..,7,1
-204,"Újpest-Kisvárda,Villareal-Oviedo",2025.08.15,2.83,4642.0,1X2,Lost,Football,Mixed leagues,"0-1,2-0",elment..,7,1
-205,"Tottenham-Burnley, Annency-Dunkerque",2025.08.16,5.0,3000.0,1X2,Won,Football,Mixed leagues,"3-0,2-2",bejött,7,1
-206,"Tottenham-Burnley, Reims-Guingap",2025.08.16,5.15,3000.0,1X2,Lost,Football,Mixed leagues,"3-0,1-0",elment..,7,1
-207,"Tottenham-Burnley, Middfeilfrt-Köge",2025.08.16,5.0,3000.0,1X2,Won,Football,Mixed leagues,"3-0,2-2",bejött,7,1
-208,"Hartberg-Salzburg,Sariey-Boluspor",2025.08.16,4.78,3000.0,1X2,Won,Football,Mixed leagues,"1-2,1-1",bejött,7,1
-209,"Hartberg-Salzburg,FTC-Puskás",2025.08.16,5.97,3000.0,1X2,Lost,Football,Mixed leagues,"1-3,1-2",elment..,7,1
-210,"Chelsea-Cpalace,RealSociead2-Zaragoza",2025.08.17,5.13,3385.0,1X2,Lost,Football,Mixed leagues,"0-0,1-0",elment..,7,1
-211,"Chelsea-Cpalace,Huesca-Leganes",2025.08.17,5.04,3000.0,1X2,Lost,Football,Mixed leagues,"0-0,1-1",elment..,7,1
-212,"Chelsea-Cpalace,Vanspor-Erokspor",2025.08.17,5.74,3000.0,1X2,Lost,Football,Mixed leagues,"0-0,1-0",elment..,7,1
-213,"Manutd-Arsenal,Spartarotterdam-Uthrect",2025.08.17,6.89,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-1",elment..,7,1
-214,"Göteborg-AIK,Nantes-PSG",2025.08.17,2.96,7000.0,1X2,Won,Football,Mixed leagues,"2-1,0-1",bejött,7,1
-215,"Sporting-Aroua,Sivaspor-Bodrumspor",2025.08.17,3.9,3000.0,1X2,won,Football,Mixed leagues,"6-0,1,1",bejött,7,1
-216,"Sporting-Aroua,Manisa-Hatayaspor",2025.08.17,4.02,3000.0,1X2,Lost,Football,Mixed leagues,"6-0,2-1",bejött,7,1
-217,"Sporting-Aroua,Sakayaspor-Igdir",2025.08.17,4.02,3000.0,1X2,Lost,Football,Mixed leagues,6-0.3-2,elment..,7,1
-218,"Wolczberg-Linz,Realsociead2-Zaragoza",2025.08.17,5.97,3000.0,1X2,Lost,Football,Mixed leagues,"3-0,1,0",elment..,7,1
-219,"Wolczberg-Linz,Huesca-Leganes",2025.08.17,5.58,3000.0,1X2,Won,Football,Mixed leagues,"3-1,1-1",bejött,7,1
-220,"Wolczberg-Linz,Vanspor-Erokspor",2025.08.17,6.46,3000.0,1X2,Lost,Football,Mixed leagues,"3-1,1-0",elment..,7,1
-221,"RealMadrid-Ossasuna,Kecskemét-Videoton",2025.08.18,4.5,4000.0,1X2,Lost,Football,Mixed leagues,3-1,elment..,7,1
-222,"RealMadrid-Ossasuna,Odenese-Arhaus",2025.08.18,4.31,4000.0,1X2,Lost,Football,Mixed leagues,1-5,elment..,7,1
-223,"RealMadrid-Ossasuna,Lemans-Montpelier",2025.08.18,4.18,4000.0,1X2,Lost,Football,Mixed leagues,1-2,elment..,7,1
-224,"Persepolis-Seapasi,Leeds-Everton",2025.08.18,4.25,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-0",IRÁNI LIGÁRA SOHA TÖBBÉ!!!,7,1
-225,"Persepolis-Seapasi,Echle-Betis",2025.08.18,4.31,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",IRÁNI LIGÁRA SOHA TÖBBÉ!!!,7,1
-226,"Dortmund-Essen,Leeds-Everton",2025.08.18,4.03,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
-227,"Dortmund-Essen,Echle-Betis",2025.08.18,3.91,4000.0,1X2,Won,Football,Mixed leagues,"1-0,1-1",bejött,7,1
-228,"RealMadrid-Ossasuna,Kögen-Köbenhavn2",2025.08.19,4.69,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-1",elment..,7,1
-229,"RealMadrid-Ossasuna,Ejsberg-Alborg",2025.08.19,4.57,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",elment..,7,1
-230,"RealMadrid-Ossasuna,Lungby-Hilleröd",2025.08.19,4.31,3909.0,1X2,Lost,Football,Mixed leagues,"1-0,1-2",elment..,7,1
-231,"Celtic-Kalmati,Arhaus-Kolding",2025.08.20,4.11,4000.0,1X2,Lost,Football,Mixed leagues,"0-0,2-2",A tuti elment..,7,1
-232,"Celtic-Kalmati,Hornes-Alborg",2025.08.20,4.23,4000.0,1X2,Lost,Football,Mixed leagues,"0-0,0-1",A tuti elment..,7,1
-233,"Celtic-Kalmati,Hobro-Horsens",2025.08.20,4.23,4000.0,1X2,Lost,Football,Mixed leagues,0-0.0-1,A tuti elment..,7,1
-234,Győr-Rapidwien,2025.08.20,2.8,5000.0,1X2,Won,Football,KL,2-1,bejött,8,1
-235,"Anderlecht-Athen, Zsitomir-Uhtrect",2025.08.21,3.58,3000.0,1X2,Lost,Football,KL,"1-1,0-2",elment..,8,1
-236,"Szofia-Azalkmar,Leczpozan-Genk",2025.08.21,4.57,3000.0,1X2,Won,Football,EL,"0-2,1-5",bejött,8,1
-237,Alborg-Hidvore,2025.08.22,3.5,4000.0,1X2,Lost,Football,Dánia,4-0,elment..,7,1
-238,"Lemans-Bastia, Puskás-Debrecen",2025.08.22,5.44,3744.0,1X2,Lost,Football,Mixed leagues,"1-0,1-3",elment..,7,1
-239,"Westham-Chelsea,Pescara-Cesena",2025.08.22,5.67,4000.0,1X2,Lost,Football,Mixed leagues,"1-5,1-3",elment..,7,1
-240,Elvesberg-Kaiserlautern,2025.08.22,3.55,4000.0,1X2,Lost,Football,Bundesliga2,2-1,elment..,7,1
-241,Münster-Nürnberg,2025.08.22,3.4,4000.0,1X2,Lost,Football,Bundesliga2,2-1,elment..,7,1
-242,"Frankfurt-Beremen,Lynby-Horses",2025.08.23,5.35,3000.0,1X2,Won,Football,Mixed leagues,"4-1,0-0",bejött,7,1
-243,"Frankfurt-Beremen,Hannover-Magdeburg",2025.08.23,6.03,3000.0,1X2,Lost,Football,Mixed leagues,"4-1,3-1",elment..,7,1
-244,"Frankfurt-Beremen,Troyes-Montpelier",2025.08.23,5.61,3000.0,1X2,Lost,Football,Mixed leagues,"4-1,1-0",elment..,7,1
-245,"OM-Parisfc,Arsenal-Leeds",2025.08.23,3.87,3000.0,1X2,Lost,Football,Mixed leagues,"5-0,5-2",elment..,8,1
-246,"Sassuoli-Napoli,Empoli-Padova",2025.08.23,4.54,3000.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",elment..,8,1
-247,"Nice-Auxerre, Hearts-Montrewell",2025.08.23,2.99,8000.0,1X2,Lost,Football,Mixed leagues,"3-1,3-3",elment..,8,1
-248,"Plezn-Karvina, Shalke-Bochum",2025.08.23,4.47,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,2-1",elment..,7,1
-249,"Goangels-SpartaRotterdam,Nice-Auxerre",2025.08.23,7.03,2000.0,1X2,Lost,Football,Mixed leagues,"0-3,3-1",elment..,7,1
-250,"Nice-Auxerre, Mer-St Etiene",2025.08.23,3.34,10000.0,1X2,Won,Football,Mixed leagues,"3-1,0-1",bejött,8,1
-251,"Bielefeld-Dresda, St.mirren-Rangers",2025.08.24,3.41,10000.0,1X2,Lost,Football,Mixed leagues,"1-2,1-1",elment..,7,1
-252,"Wolflberg-Rapid, Lorient-Rennes",2025.08.24,6.7,3545.0,1X2,Lost,Football,Mixed leagues,"1-2,4-0",elment..,8,1
-253,"Fullham-Utd, Juventus-Parma",2025.08.24,5.36,3000.0,1X2,Won,Football,Mixed leagues,"1-1,2-0",bejött,7,1
-254,"Ossasuna-Valencia, Juventus-Parma",2025.08.24,4.7,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-0",elment..,7,1
-255,Everton-Brighton,2025.08.24,3.4,4000.0,1X2,Lost,Football,Premier League,2-0,elment..,7,1
-256,Strasburg-Nantes,2025.08.24,3.7,4000.0,1X2,Lost,Football,Ligue 1,1-0,elment..,7,1
-257,Touluse-Brest,2025.08.24,3.45,4000.0,1X2,Lost,Football,Ligue 1,2-0,elment..,7,1
-258,Gnadsk-Arka,2025.08.24,3.7,4000.0,1X2,Lost,Football,Lengyel1,1-0,elment..,7,1
-259,"Catanzaro-Südtirol, Spartapraha-Duklapraha",2025.08.24,3.9,4000.0,1X2,Won,Football,Mixed leagues,"1-1,2-1",bejött,7,1
-260,"Vasas-Tiszakécske, Sampdoria-Modena",2025.08.25,4.95,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-2",elment..,7,1
-261,"Vasas-Tiszakécske, Ejüspor-Alanyaspor",2025.08.25,5.29,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-1",elment..,7,1
-262,"Vasas-Tiszakécske, Wisla-Lubin",2025.08.25,5.54,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-1",elment..,7,1
-263,Cordoba-laspalmas,2025.08.25,3.2,4000.0,1X2,Lost,Football,La Liga 2,1-3,elment..,7,1
-264,Pau-Reims,2025.08.25,3.5,4000.0,1X2,Lost,Football,Ligue 2,2-0,elment..,7,1
-265,Madagaszkár-Szudán,2025.08.26,2.8,8800.0,1X2,Won,Football,World Cup qualification,1-1,bejött,7,1
-266,Marokkó-Szenegál,2025.08.26,3.05,8913.0,1X2,Won,Football,World Cup qualification,0-0,bejött,7,1
-267,"Almati-Celtic, Pafos-cvndrezda",2025.08.26,6.63,4000.0,1X2,Lost,Football,BL,"0-0,1-1",elment..,7,1
-268,"Pafos-cvndrezda, Braunwseigh-Stuttgart",2025.08.26,4.68,4640.0,1X2,lost,Football,Mixed leagues,"1-1,3-3",elment..,7,1
-269,"Riga-Spartaprha,Celtavigo-Betis",2025.08.27,7.2,3184.0,1X2,Lost,Football,Mixed leagues,"1-0,1-1",elment..,7,1
-270,"Riga-Spartaprha,Köbenhavn-Basel",2025.08.27,8.2,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-0",elment..,7,1
-271,"Rapid-Győr, Ostrava-Celje",2025.08.28,4.46,4000.0,1X2,Lost,Football,KL,"2-0,0-2",elment..,8,1
-272,"Athen-Anderlecht,Uhtrecht-Zsitomir",2025.08.28,3.42,4000.0,1X2,Lost,Football,KL,"2-0,0-0",elment..,8,1
-273,"Youngboys-slovan,Azalkmar-Levszkiszofia",2025.08.28,2.59,8000.0,1X2,Won,Football,EL,"3-2,4-1",bejött,8,1
-274,Hamburg-St.pauli,2025.08.29,3.45,4000.0,1X2,Lost,Football,Bundesliga,0-2,elment..,7,1
-275,"Lemgo-Magdeburg,Valencia-Getafe",2025.08.29,3.93,4000.0,1X2,Lost,Mixed sports,Mixed leagues,"29-33,3-0",elment..,7,1
-276,Echle-Levante,2025.08.29,3.25,4000.0,1X2,Lost,Football,La Liga,2-0,elment..,7,1
-277,"Vanspor-Bandiaspor,GDyna-Wisla",2025.08.29,8.28,3720.0,1X2,Lost,Football,Mixed leagues,"1-2,1-0",elment..,7,1
-278,"Sayizer-Enzurum, Lens-Brest",2025.08.29,6.01,5000.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",elment..,7,1
-279,"Reggina-Empoli, Cremonese-Sassuolo",2025.08.29,4.54,4000.0,1X2,Lost,Football,Mixed leagues,"3-1,3-2",elment..,7,1
-280,"Viktoriaköln-Regensburg,Paks-Kazincbarcika",2025.08.29,4.89,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,3-0",elment..,7,1
-281,Milan-Lecce,2025.08.29,4.05,3000.0,1X2,Lost,Football,Seria A,0-2,elment..,7,1
-282,Paks-Kazincbarcika,2025.08.29,3.9,6000.0,1X2,Lost,Football,NB 1,3-0,elment..,7,1
-283,"Salzburg-Linz, Bologna-Como",2025.08.30,4.22,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-0",elment..,7,1
-284,"AEK-Tripolisz, Rangers-Celtic",2025.08.31,2.46,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-0",elment..,7,1
-285,"Örményország-Írország, Azerbajdzsán-Ukrajna",2025.09.09,3.0,5000.0,1X2,Lost,Football,World Cup qualification,2-1-1-1,elment..,8,1
-286,"Burnly-Liverpool, Atalanta-Lecce, Barcelona-Valencia",2025.09.14,2.64,5000.0,1X2,Won,Football,Mixed leagues,"0-1,3-1,6-0","bejött, de nem írták jóvá:))",8,1
-287,"Espanyol-Mallorca, AIK-Borohumma",2025.09.15,5.76,5000.0,1X2,Lost,Football,Mixed leagues,"2-1,2-1",elment..,7,1
-288,"Real Madrid_OM, Benfica-Quaragab, Atl.Bilbao-Arsenal",2025.09.16,3.27,1500.0,1X2,Lost,Football,BL,"2-1,2-3,0-2",elment..,8,1
-289,"Venezia-Cesena,Brest-Nice",2025.09.20,7.54,3000.0,1X2,Lost,Football,Mixed leagues,"2-2,4-1",A Nice-t nagyon benéztem.,7,1
-290,"Reggina-Catanzaro, Brest-Nice",2025.09.20,7.3,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,4-1",A Nice-t nagyon benéztem.,7,1
-291,"ZTE-Kazincbarcika, St.Pauli-Leverkusen",2025.09.27,4.29,5000.0,1X2,Lost,Football,Mixed leagues,"5-0,2-1",elment..,8,1
-292,"Verona-Sassuolo, Bormouth-Fullham",2025.10.03,6.72,5000.0,1X2,Won,Football,Mixed leagues,"0-1,3-1",bejött,9,1
-293,"Grazer-Wolfsberg, Austriawien-Linz",2025.10.04,3.51,10000.0,1X2,Lost,Football,Ausztria1,"1-3,1-2",Geci lilák..,8,1
-294,"Sevilla-Barcelona, Krím-FTC, Kalifa-AEK",2025.10.04,2.7,10000.0,1X2,Lost,Football,Mixed leagues,"4-1,22-35,2-3",Szarbarca,8,1
-295,"Honved-Tiszacsécske, Az alkmar -Teslar, Celtavigo-AtleticoMadrid",2025.10.04,3.47,10000.0,1X2,Lost,Football,Mixed leagues,"1-1,4-1,1-1",elment..,8,1
-296,"Sociead-Rayo, Celtavigo-Atl.Madrid",2025.10.04,4.79,3600.0,1X2,Lost,Football,La Liga,"0-1,1-1",elment,6,1
-297,"Finnország-Litvánia, Burundi-Kenya",2025.10.09,4.59,3000.0,1X2,Lost,Football,World Cup qualification,"2-1,0-1",elment,7,1
-298,"Finnország-Litvánia, Libéria-Namíbia",2025.10.09,4.9,3000.0,1X2,Lost,Football,World Cup qualification,"2-1,3-1",elment,7,1
-299,Feörer-Csehorsztág,2025.10.12,1.7,10000.0,1X2,Lost,Football,World Cup qualification,"2-1,2-1",,8,1
-300,"FTC-Kalskrona, Elverum-Kriens, Andora-Szerbia",2025.10.14,2.5,10000.0,1X2,Lost,Mixed sports,Mixed leagues,"2-1,2-1",,8,1
-301,Manutd-Brighton,2025.10.25,3.84,3000.0,1X2,Lost,Football,Premier League,4-2,,8,1
-302,Valencia-Villareal,2025.10.25,3.63,4000.0,1X2,Lost,Football,La Liga,0-2,,8,1
-303,Lens-Marseille,2025.10.25,3.6,4000.0,1X2,Lost,Football,Ligue 1,2-1,,8,1
-304,"Mantova-Catanzaro,Lorient-PSG",2025.10.29,4.0,1000.0,1X2,Lost,Football,Mixed leagues,1-3-1-1,,8,1
-305,"Lorient-PSG, Venezia-Tirol",2025.10.29,4.58,1000.0,1X2,Lost,Football,Mixed leagues,"1-1,3-0",,8,1
-306,Como-Verona,2025.10.29,3.6,1000.0,1X2,Lost,Football,Seria A,3-1,,8,1
-307,"FTC-Békéscsaba, Lorient-PSG",2025.10.29,3.93,1000.0,1X2,Lost,Football,Mixed leagues,"4-0,1-1",,8,1
-308,"Metz-Lens,Lorient-PSG",2025.10.29,5.94,1000.0,1X2,Lost,Football,Ligue 1,"2-0,1-1",,8,1
-309,"DVSC-ZTE, Fiorentina-Lecce, Sampdoria-Mantova",2025.11.02,6.97,10000.0,1X2,Lost,Football,Mixed leagues,"2,-1,0-1,0,1",,8,1
-310,"Bastia-Reims,Clermont-Amiens,Grenoble-Rodez,nancy-Laval",2025.11.07,46.56,15500.0,1X2,Lost,Football,Mixed leagues,"1-3,2-1,2-1,1-0,0-2",,8,1
-311,"Finnország-Málta,Szlovakia-Északírország",2025.11.04,3.04,5000.0,1X2,Lost,Football,World Cup qualification,"0-1,1-0",,8,1
-312,"Puskás-Kisvárda,Cagliari-Genoa",2025.11.22,5.39,1500.0,1X2,Won,Football,Mixed leagues,"2-0,3.3",,8,1
-313,"Puskás-Kisvárda,Avellino-Emploi",2025.11.22,5.88,1500.0,1X2,Lost,Football,Mixed leagues,5.88,,8,1
-314,"Udeinese-Bologna, Lens-Strasburg",2025.11.22,6.85,1500.0,1X2,Lost,Football,Mixed leagues,"1-0,0-3",,8,1
-315,"Lens-Strasburg,Entella-Palermo",2025.11.22,6.21,1500.0,1X2,Won,Football,Mixed leagues,"1-0,1-1",,8,1
-316,"Napoli-Atalanta,Stmiren-Celtic",2025.11.22,4.47,2400.0,1X2,won,Football,Mixed leagues,"3-1,0-1",,8,1
-317,"Verona-Parma,Echle-RealMadrid",2025.11.23,4.28,2000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-2",,8,1
-318,"Köbenhavn-Brönby, Aberden-Hearts",2025.11.23,7.18,2000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0",,8,1
-319,"Auxerre-Lyon,Panseraikos-Panathinaikos, Echle-Real",2025.11.23,4.25,2000.0,1X2,Lost,Football,Mixed leagues,"0-0,0-3,2-2",,8,1
-320,"Heverle-St.Truiden,Echle-Real",2025.11.23,4.61,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-2",,8,1
-321,"Echle-Real,Inter-Milan",2025.11.23,4.68,2000.0,1X2,Lost,Football,Mixed leagues,"2-2,0-1",,8,1
-322,Manudt-Everton,2025.11.24,4.0,1500.0,1X2,Lost,Football,Premier League,0-1,,8,1
-323,"Sampdoria-Stabbia,Torino-Como",2025.11.24,9.37,1000.0,1X2,Lost,Football,Seria B,"1-0,1-5",,6,1
-324,"OM_Newcastle,Slacia-ATL.bilbao",2025.11.25,5.73,1500.0,1X2,Lost,Football,BL,"0-0,2-1",,7,1
-325,"Porto-Nice, Fenerbache-FTC",2025.11.27,2.34,10000.0,1X2,Lost,Football,EL,"3-0,1-1",,9,1
-326,"Nyíregyháza-DVSC,Spanyol-Feörrer",2025.11.28,3.71,5000.0,1X2,Lost,Mixed sports,Mixed leagues,"0-3,20-30",,9,1
-327,"ZTE-Paks,OM-Touluse",2025.11.29,5.76,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,2-2",,8,1
-328,"OM-Touluse, Barcika-DVTK",2025.11.29,3.84,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,1-1",,8,1
-329,"Arhaus-Köbenhavn, Chelsea-Arsenal",2025.11.30,3.51,2500.0,1X2,Lost,Football,Mixed leagues,"2-0,1,1",,8,1
-330,"Chelsea-Arsenal, Arhaus-köbenhavn",2025.11.30,3.54,2500.0,1X2,Lost,Football,Mixed leagues,"1-1,2-0",,8,1
-331,"Chelsea-Arsenal, Girona-Real",2025.11.30,2.0,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,1-1",,8,1
-332,"Heidenheim-Freiburg,Nantes-Lens",2025.12.06,3.09,10000.0,1X2,Lost,Football,Mixed leagues,"2-1,1-2",,8,1
-333,"Quarabag-Ajax,Dortmund-Bodö",2025.12.10,2.81,5000.0,1X2,Lost,Football,BL,"2-4,2-2",,8,1
-334,"Puskás-DVTK, Barcelona-Osasuna, Sporting-AVS",2025.12.13,2.2,5000.0,1X2,Won,Football,Mixed leagues,"2-1,2-0,6-0",,8,1
-335,"Barcelona-Osasuna, Grazer-Lask",2025.12.13,2.56,5000.0,1X2,Won,Football,Mixed leagues,"2-0,1-2",,8,1
-336,"Metz-PSG, Nyíregyháza-ETO",2025.12.13,2.43,5000.0,1X2,Won,Football,Mixed leagues,"2-3,0-1",,8,1
-337,"Metz-PSG, MTK-újpest",2025.12.13,3.25,5000.0,1X2,Won,Football,Mixed leagues,"2-3, 0-1",,8,1
-338,"Palace-Man city, Milan-Sassuolo",2025.12.14,2.86,5000.0,1X2,Lost,Football,Mixed leagues,"0-3, 2-2",,8,1
-339,"Milan-Sassuolo, Lens-Nice, Panaitikolos-Athen",2025.12.14,3.25,5000.0,1X2,Lost,Football,Mixed leagues,"2-2, 2-0, 0-5",Milan tudható volt..,6,1
-340,"Kisvárda-ZTE, Westham-Aston villa",2025.12.14,5.95,2200.0,1X2,Lost,Football,Mixed leagues,"3-3, 2-3",,8,1
-341,"FTC-DVSC, Chaerloi-Royal",2025.12.14,4.37,5000.0,1X2,Lost,Football,Mixed leagues,"0-1, 1-1",,8,1
-342,"Chaerloi-Union, Morerise-Benfica",2025.12.14,2.67,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,0-4",,8,1
-343,"Roma-Como, Porto-Amadora",2025.12.15,3.73,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,3-1",,8,1
-344,"Porto-Amadora, Sheffield-Derby Country",2025.12.15,3.99,3000.0,1X2,Lost,Football,Mixed leagues,"3-1, 0-3",,8,1
-345,"Rayo-Betis, Porto-Amadora",2025.12.15,3.34,3000.0,1X2,Lost,Football,Mixed leagues,"0-0, 3-1",,8,1
-346,Manutd-Bormouth,2025.12.15,4.3,3000.0,1X2,Won,Football,Premier League,4-4,,8,1
-347,"DVTK-FTC,Dortmund-Mönthengladbah",2025.12.19,2.23,10000.0,1X2,Won,Football,Mixed leagues,"0-1, 2-0",,10,1
-348,"Paks-Nyíregyháza, Mancity-Westham",2025.12.20,2.04,10000.0,1X2,Won,Football,Mixed leagues,"2-1, 3-0",,10,1
-349,"Celtic-Aberdeen, Uhtrecht-PSV",2025.12.21,2.33,10000.0,1X2,Won,Football,Mixed leagues,"3-1, 1-2",,10,1
-350,"újpest-Barcika, Entella-Tirol, Volendam-Sparta rotterdam",2025.12.21,4.87,5000.0,1X2,Won,Football,Mixed leagues,"2-1, 1-1, 0-1",,7,1
-351,"DVSC-Kisvárda, Volendam-Sparta Rotterdam",2025.12.21,4.72,5000.0,1X2,Lost,Football,Mixed leagues,"0-1, 0-1",debrecen..,8,1
-352,"Egyiptom-Zimbabwe, Panseraikos-Levandiakos",2025.12.22,2.14,10000.0,1X2,Won,Football,Mixed leagues,"0-2, 2-1",Necces volt..,8,1
-353,Kongó-Benin,2025.12.23,3.33,4000.0,1X2,Lost,Football,World Cup qualification,1-0,,6,1
+162,"Kazincbarcika-DVSC, Casapia-Sporting",2025.08.08,3.29,3050.0,1X2,Won,Football,Mixed leagues,"1-2,0-2",bejött..,7,1
+163,"Kazincbarcika-DVSC, Sttruiden-Dender",2025.08.08,8.37,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,2-0",elment..,7,1
+164,Sittard-Eagles,2025.08.08,3.5,3000.0,1X2,Won,Football,Holland,2-2,bejött..,7,1
+165,"Ümreanyispor-Manisa, Gazintep-Galatasaray",2025.08.08,4.64,3000.0,1X2,Lost,Football,Mixed leagues,"2-1,0-3",elment..,7,1
+166,"Münster-Paderborn,Metaglobus-dinamobukarest",2025.08.08,4.42,3000.0,1X2,Won,Football,Mixed leagues,"1-1,0-1",bejött..,7,1
+167,Nürnberg-Damstadt,2025.08.08,3.85,3000.0,1X2,Lost,Football,Bundesliga2,0-1,elment..,7,1
+150,"Frediksan-Mityland,Anderlecht-Serif",2025.08.07,4.77,3000.0,1X2,Lost,Football,EL,"1-3,2-0",elment..,7,1
+151,"Anderlecht-Serif, Kongó-Zambia",2025.08.07,3.59,3000.0,1X2,Lost,Football,Mixed leagues,"2-0, 2-0",elment..,7,1
+152,"Anderlecht-Serif, Kolozsvár-Braga",2025.08.07,4.34,3000.0,1X2,Lost,Football,Mixed leagues,"2-0, 1-2",elment..,7,1
+153,"Anderlecht-Serif, Ostrava-wien",2025.08.07,4.27,3000.0,1X2,Lost,Football,EL,"2-0, 4-3",elment..,7,1
+154,Hacken-Branberg,2025.08.07,3.7,3000.0,1X2,Lost,Football,KL,0-2,elment..,7,1
+155,Laranca-Varso,2025.08.07,3.4,3000.0,1X2,Lost,Football,EL,4-1,elment..,7,1
+156,Limaszol-Aek,2025.08.07,3.35,3000.0,1X2,Won,Football,EL,2-2,bejött..,7,1
+157,AIK-Győr,2025.08.07,4.1,3000.0,1X2,Lost,Football,KL,2-1,elment..,7,1
+158,Partizan-Hibernian,2025.08.07,3.8,4000.0,1X2,lost,Football,NB 1,0-2,elment..,7,1
+159,Rapid-Dundee,2025.08.07,5.25,4000.0,1X2,Won,Football,EL,2-2,bejött..,7,1
+160,Servette-Uhrect,2025.08.07,3.6,4000.0,1X2,Lost,Football,EL,1-4,elment..,7,1
+161,PAOK-Wolfsberg,2025.08.07,7.75,4000.0,1X2,Lost,Football,EL,0-0,elment..,9,1
+143,"Rieka-Shelborune, Burkinafaso-Középafrika",2025.08.06,3.74,4000.0,1X2,Lost,Football,Mixed leagues,"1-2,4-2",Jól elment..,7,1
+144,"Rieka-Shelborune, Mauritánia-Tanzánia",2025.08.06,3.81,4000.0,1X2,Lost,Football,Mixed leagues,"1-2,0-1",Jól elment..,7,1
+145,Almati-slovan,2025.08.06,3.25,4000.0,1X2,Lost,Football,Mixed leagues,1-0,elment..,7,1
+146,Salzburg-Bruges,2025.08.06,3.65,4000.0,1X2,Lost,Football,BL,0-1,elment..,7,1
+147,Pozan-Drezda,2025.08.06,3.6,4000.0,1X2,Lost,Football,BL,1-3,elment..,7,1
+148,Rigas-Kupio,2025.08.06,3.65,3878.0,1X2,Lost,Football,BL,1-2,elment..,7,1
+149,Basel-YoungBoys,2025.08.06,3.95,4000.0,1X2,Lost,Football,Svájc1,3-1,elment..,7,1
+137,"Kongó-Szudán, Hamrun-Maccabi",2025.08.05,4.02,3000.0,1X2,Won,Football,Mixed leagues,"0-0,1-2",bejött,7,1
+138,"Szenegál-Nigéria, Hamrun-Maccabi",2025.08.05,3.82,3600.0,1X2,Lost,Football,Mixed leagues,"1-0,1-2",elment..,7,1
+139,Skejinda-Quarabag,2025.08.05,3.35,4000.0,1X2,Lost,Football,BL,0-1,elment..,7,1
+140,Rangers-Plezn,2025.08.05,3.65,4000.0,1X2,Lost,Football,BL,3-0,elment..,7,1
+141,Malmő-Köbenhavn,2025.08.05,3.2,4000.0,1X2,Won,Football,BL,0-0,bejött,7,1
+142,Klaskiv-Nyman,2025.08.05,3.3,4000.0,1X2,Lost,Football,KL,2-0,elment..,7,1
+129,"Niger-Guiena,Ilves-Cigan",2025.08.04,4.04,4000.0,1X2,lost,Football,Mixed leagues,"1-2,1-1",Egyik sem jött be..,7,1
+130,"Uganda-Algéria,Ilves-Cigan",2025.08.04,4.17,4000.0,1X2,Lost,Football,Mixed leagues,"0-2,2-2",Egyik sem jött be..,7,1
+131,"Napoli-Cingeri,Hvidvore-Horsens",2025.08.04,3.59,4000.0,1X2,Lost,Football,Mixed leagues,"1-1,0-0",Sajnos a Napoli cigány bunda..,6,1
+132,"Napoli-Cingeri,Herts-Abedeen",2025.08.04,4.05,3764.0,1X2,Lost,Football,Mixed leagues,"1-1,2-0",Sajnos a Napoli cigány bunda..,6,1
+133,Novi-Beograd,2025.08.04,3.35,4000.0,1X2,Lost,Football,Bulgária,1-3,Nem jött be,7,1
+134,Helsinki-Inter Turku,2025.08.04,3.75,4000.0,1X2,Lost,Football,Finn1,1-4,Nem jött be,7,1
+135,Hvidvore-Horsens,2025.08.04,3.15,4000.0,1X2,Won,Football,Dánia2,0-0,Bejött,7,1
+136,Herts-Abedeen,2025.08.04,3.75,4000.0,1X2,lost,Football,Skócia,2-0,Nem jött be,7,1
+123,Kisvárda-Paks,2025.08.03,3.9,3000.0,1X2,Lost,Football,NB 1,1-5,elment..,7,1
+124,Puskás-nyíregyháza,2025.08.03,3.9,3000.0,1X2,Lost,Football,NB 1,3-2,elment..,7,1
+125,Rapid-Linz,2025.08.03,3.55,3000.0,1X2,Lost,Football,Ausztria1,1-0,elment..,6,1
+126,Dukla-Ostrava,2025.08.03,3.55,3000.0,1X2,Won,Football,Cseh1,1-1,bejött,7,1
+127,Wehen-Ulm,2025.08.03,4.45,3000.0,1X2,Lost,Football,Bundesliga3,2-1,elment..,7,1
+128,Győr-Újpest,2025.08.03,3.6,4000.0,1X2,Won,Football,NB 1,1-1,bejött,7,1
+115,"FTC-Kazincbarcika, Teplice-Bohemians",2025.08.02,4.38,4000.0,1X2,Lost,Football,Mixed leagues,"3-0,3-0",Elment,7,1
+116,"FTC-Kazincbarcika, Lathi-Ekanes",2025.08.02,4.45,4400.0,1X2,Lost,Football,Mixed leagues,"3-0,3-1",Elment,7,1
+117,"FTC-Kazincbarcika, Tbb-Pogon",2025.08.02,4.57,4000.0,1X2,Won,Football,Mixed leagues,"3-0,1-1",bejött,7,1
+118,"Elvsberg-Nürnberg, Osijek-DinamoZagreb",2025.08.02,6.17,4000.0,1X2,Lost,Football,Mixed leagues,"1-0,0-2",Elment,7,1
+119,"Osijek-DinamoZagreb,Kilmarnok-Lingviston",2025.08.02,5.67,4000.0,1X2,Won,Football,Mixed leagues,"0-2,2-2",bejött- jól hozott!,7,1
+120,"Osijek-DinamoZagreb,Cottbus-Sandörksen",2025.08.02,5.76,3000.0,1X2,Won,Football,Mixed leagues,"0-2,3-3",bejött,7,1
+121,Diósgyőr-ZTE,2025.08.02,3.8,3000.0,1X2,Won,Football,NB 1,2-2,bejött,7,1
+122,"Bilefeld-Düsseldorf,Padeborn-Holstein",2025.08.02,13.69,771.0,1X2,Lost,Football,Bundesliga2,"5-1,2-1",Elment,4,1
+110,Velje-Odenese,2025.08.01,3.55,4000.0,1X2,Lost,Football,Dánia,4-0,nem nyert...,7,1
+111,DVSC-MTK,2025.08.01,3.85,4000.0,1X2,Lost,Football,NB 1,1-0,nem nyert...,7,1
+112,Schalke-Herta,2025.08.01,3.5,4000.0,1X2,Lost,Football,Bundesliga2,2-1,nem nyert...,7,1
+113,Essen-1860,2025.08.01,3.4,4000.0,1X2,Won,Football,Bundesliga3,1-1,Bejött,7,1
+114,Lubin-Korona,2025.08.01,3.35,4051.0,1X2,Won,Football,Lengyel1,1-1,Bejött,7,1
+108,Puskás-Limaszol,2025.07.31,3.5,3000.0,1X2,Lost,Football,KL,0-2,Nem tudott a puskás rugni egyet sem..,7,1
+109,"Helsinki-Artmand, Hibernian-Midtyland",2025.07.31,3.13,5000.0,1X2,Lost,Football,NB 1,"1-1,0-0",MEGÉRDEMLEM!!!!!!!!!!!!!!,9,1
+105,"bukarest-Shkjeinda, FTC-NOAH",2025.07.30,5.07,3000.0,Cards,Lost,Football,BL,4-3,Nem esett piros lap..,7,1
+106,"Ludogorec-Rieka, FTC-NOAH",2025.07.30,4.21,3000.0,Cards,Won,Football,BL,4-3,Volt piros lap.,7,1
+107,"Panatinaikos-Rangers, FTC-NOAH",2025.07.30,5.14,3000.0,1X2,Lost,Football,BL,4-3,Nem esett piros lap..,7,1
+104,"Katowice-Lubin, Kijev-Hamrun",2025.07.29,3.95,3000.0,1X2,Won,Football,Mixed leagues,"3-3,3-0",Bejött,7,1
+102,Videoton-Honvéd,2025.07.28,3.5,3000.0,1X2,Lost,Football,NB 1,0-3,Benéztem,7,1
+103,Elfsborg-Göteborg,2025.07.28,3.65,3000.0,1X2,Lost,Football,Allsvenskan,4-3,Utolsó pillanatban ment el..,7,1
+99,"Bryne-Viking, Voitsberg-Wien, AIK-Öster",2025.07.27,4.3,3000.0,1X2,Lost,Football,Mixed leagues,"1-3,3-2,1-1",A lilagecik..,7,1
+100,Paks-Győr,2025.07.27,4.1,5000.0,1X2,Won,Football,NB 1,3-3,Bejött..,7,1
+101,Spartak-Subotina,2025.07.27,3.25,4000.0,1X2,Lost,Football,Allsvenskan,1-3,elment. 88.percig jó volt..,7,1
+91,"Ejsberg-Hidrove, Kilmarnock-Eastfife",2025.07.26,4.13,3000.0,1X2,Lost,Football,Mixed leagues,2-1,Elment a Dán,7,1
+92,"Hilleröd-Alborg,Kilmarnock-Elife",2025.07.26,4.01,3000.0,1X2,Won,Football,Mixed leagues,"2-2,4-0",bejött az eredeti stratégia szerint..,7,1
+93,"Kilmarnock-Elife, Tobol-Almati",2025.07.26,3.77,3000.0,1X2,Lost,Football,Mixed leagues,"4-0,0-3",elment..,7,1
+94,"ZTE-Debrecen, DAC-Michalove",2025.07.26,4.34,2793.0,1X2,Lost,Football,Mixed leagues,"3-3,1-1",A nagy DAC nem nyert..,7,1
+95,"Gnack-Pozan,Mtk-FTc",2025.07.26,5.78,3000.0,1X2,Lost,Football,Mixed leagues,2-4.1-1,elment mind a kettő..,6,1
+96,Tatran-Slovan,2025.07.26,6.68,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
+97,Tatran-Slovan,2025.07.26,7.39,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
+98,Tatran-Slovan,2025.07.26,7.19,3000.0,1X2,Lost,Football,Mixed leagues,1-1,Más is volt mellette de már ez sem jött be..,7,1
+89,Berove-Ludogorec,2025.07.25,4.25,3000.0,1X2,lost,Football,Bulgária,0-1,Az utolsó percben ment el..,7,1
+90,"újpest-Diósgyőr,Nyíregyháza-Kisvárda",2025.07.25,4.77,3000.0,1X2,Won,Football,NB 1,"3-1,2-0",,7,1
+86,"Aktobe-Sparta-Praha,Joseph-Shamrock",2025.07.24,2.84,10000.0,1X2,Lost,Football,KL,"2-1,0-4",Sparta Praha.. Eltértem megint a tematikától..,8,1
+87,"Mitjyland-Hibernian,Decic-Rapid,Flora-AIK",2025.07.24,2.08,12530.0,1X2,Lost,Football,EL,"1-1,0-2,0-2",Midjíland.. Eltértem megint a tematikától..,8,1
+88,"Tirapol-Uhrect,Anderlecht-Hacken",2025.07.24,2.64,7860.0,1X2,Won,Football,EL,"1-3,1-0",Bejött.. Eltértem megint a tematikától..,8,1
+81,"Görög-Magyar, Zira-Hajduk split",2025.07.23,8.84,3000.0,1X2,Lost,Mixed sports,World Cup qualification,"0-0,1-1",Vizi nem jött..,6,1
+82,"Bergen-Salzburg,Thorvan-Brönby",2025.07.23,4.8,3000.0,1X2,Lost,Football,EL,"1-4,0-0",nem jött..,7,1
+83,"Thorvan-Brönby, Tallin-Iberia",2025.07.23,4.16,3000.0,1X2,Lost,Football,EL,"0-0,1-1",nem jött..,7,1
+84,"Thorvan-Brönby, Shelburne-Quarabag",2025.07.23,5.24,3000.0,1X2,Lost,Football,BL,"0-0,0-3",nem jött..,5,1
+85,"USA-Spanyol,Zira-Hajduk",2025.07.23,8.26,3000.0,1X2,Lost,Mixed sports,Mixed leagues,"12-13,1-1",Vizi nem jött..,6,1
+77,"Hamrun-Kijev,Plezn-Servette,NOAH-FTC, Kupio-Kazan,Szerb-Magyar",2025.07.22,49.06,1000.0,1X2,Lost,Mixed sports,Mixed leagues,1-7,"Próba volt, érzés. Nem jött be több sem.",6,1
+78,"Hamrun-Kijev,Plezn-Servette,NOAH-FTC, Kupio-Kazan",2025.07.22,7.54,3000.0,1X2,Lost,Football,Mixed leagues,"1-2,1-7,5-0,2-0",Nagyon benéztem a Kazanyt és a Plezn-t!,7,1
+80,"LechPozan-Breidabbik,Rieka-Ludogorec,Rngers-Panatinaikosz",2025.07.22,5.52,3000.0,1X2,Lost,Football,BL,"5-1,0-0,2-0",Nem jött..,7,1
+72,"USA-Görögország, Varna-Berave",2025.07.21,4.79,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
+73,"USA-Görögország, Marine-Hakka",2025.07.21,5.06,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
+74,"USA-Görögország, Nörkopping-Várna",2025.07.21,5.06,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-0-0,A tuti elment... Vizilabda..,7,1
+75,"Lincon-Drezda,Köbenhavn-Haka,Mariehamm-Haka",2025.07.21,4.95,3000.0,1X2,Won,Mixed sports,Mixed leagues,"0-1,2-0,1-1",Bejöttek! És eredeti stratégia szerint!,7,1
+76,"Lincon-Drezda,Köbenhavn-Haka,Nörköping-Várna",2025.07.21,4.88,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-0,3-1",Nem jött..,7,1
+79,"Várna-Beroe,Lincon-Drezda,Köbenhavn-Drita",2025.07.21,4.51,3000.0,1X2,Won,Football,Mixed leagues,"0-0,0-1,2-0",Bejöttek! És eredeti stratégia szerint!,7,1
+69,"Spanyolország-Montenegró, Görög-Olasz",2025.07.20,9.28,3000.0,1X2,Lost,Water polo,World Cup qualification,0-0-0-0,"Görögök nyertek, én x-re tettem.",6,1
+70,"Spanyolország-Montenegró, Gallon-Bruges",2025.07.20,4.28,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-1-2,Nem adták meg a döntetlent érő gólt...,8,1
+71,"Spanyolország-Montenegró, Maybi-AIK",2025.07.20,4.32,3000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0-2-0,Az x nem jött..,7,1
+66,"petroul-bukarest,Lodz-Lubin",2025.07.19,5.79,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,1-0",tuti jött..,7,1
+67,"petroul-bukarest,Bohemians-Ostrava",2025.07.19,6.73,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,1-0",tuti jött..,7,1
+68,"petroul-bukarest,Viking-Bodö",2025.07.19,7.45,3000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-4",tuti jött..,7,1
+65,"Hermannstadt-Metaglobus, Pardubice-Plezn, Szerbia-Japán",2025.07.18,2.23,10462.0,1X2,Lost,Mixed sports,Mixed leagues,"2-2,1-5,25-6",Ez a köcsög román megint elment..,8,1
+63,"Dila Gori-Luxemburg, Aktobe-Varso",2025.07.17,2.84,5441.0,1X2,Won,Football,EL,"1-0,0-1",bejött..,7,1
+64,"Partizan-Ciprus, Viborg-Köbenhavn",2025.07.17,3.28,5000.0,1X2,Lost,Football,EL,1-0,elment..,6,1
+62,"DinamoMinszk-Ludogorec, Dila gori-Luxemburg",2025.07.16,2.58,5000.0,1X2,Lost,Football,Mixed leagues,2-1,Nem tudott nyerni a Ludogorec.,7,1
+61,"Malmő-Liberia, Ilves-Vaasa",2025.07.15,2.08,5000.0,1X2,Won,Football,Mixed leagues,"3-2,3-1",bejött..,7,1
+60,"AIK-Degerfors, Varnamo-Djungarden",2025.07.13,2.81,3075.0,1X2,lost,Football,Allsvenskan,"3-0,1-0",Nem Nyertek,6,1
+58,Girmay,2025.07.12,11.5,2000.0,1X2,Lost,Mixed sports,Mixed leagues,0-0,Kerékpár volt..,5,1
+59,"bukarest-Hermalin, Malmő-Norrköping",2025.07.12,2.21,5000.0,1X2,Lost,Football,Mixed leagues,"1-1,3-1",Szarok nem nyertek......,8,1
+56,"Japán-Horvátország, Magyarország-Görögország",2025.07.11,2.01,5000.0,1X2,Won,Water polo,World Cup qualification,"25-15,11-10",Magyarok nagyon nehezen nyertek..,6,1
+54,"Szófia-Hapoel,Szkopje-Fiorita",2025.07.10,3.39,5000.0,1X2,Lost,Football,EL,"0-0,3-0",Zsidók nem nyertek..,8,1
+55,"Paks-Kolozsvár, Sherif-Pristina. Runavik-Helsinki",2025.07.10,4.64,5000.0,1X2,Lost,Football,KL,"0-0,4-0,4,0",Helsinki egy fos..,7,1
+52,"Ludogorac-MInszk, FTC-Zlin, Atletic-Dundelange",2025.07.09,5.63,5000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-0,2-0",Dundelande....,8,1
+53,Vingegard,2025.07.09,6.75,770.0,1X2,Lost,Mixed sports,World Cup qualification,0-0,Kerékpár volt...,6,1
+50,"Ibéria-Malmő, NOAH-Podgorica",2025.07.08,2.07,10000.0,1X2,Won,Football,BL,"1-3,1-0","Ok, bejött..",7,1
+51,Flumenese-Chelsea,2025.07.08,3.6,5000.0,Cards,Lost,Football,World Cup qualification,0-2,Nem volt piros lap..,8,1
+49,"Izland-Finnország, Helsinki-Jaro, Ilves-KTP",2025.07.02,4.65,1000.0,1X2,Lost,Football,Mixed leagues,"0-1,2-3,2,1",Nem jöttek be..,6,1
+48,"Dortmund-Monterrey, Real Madrid-Juventus",2025.07.01,3.02,1549.0,1X2,Lost,Football,World Cup qualification,"2-1,1-0","Dortumnd nyert, így elment..",6,1
+47,Inter-Fluminese,2025.06.30,3.7,1500.0,Cards,Lost,Football,World Cup qualification,0-2,Sajnos nem volt piros lap,7,1
+44,"Paris-Maimi, Tobol-Zhenis, Ordabaszi-Almathi",2025.06.29,2.9,1500.0,1X2,Lost,Football,Mixed leagues,"4-0,2-2,0-1",A Tobol elment..,6,1
+45,"Ordabaszi-Almati, Paris-Miami",2025.06.29,2.36,1500.0,1X2,Won,Football,Mixed leagues,"0-1,4-0",Bejött..,7,1
+46,Flamengo-Bayern München,2025.06.29,4.35,1500.0,Cards,Lost,Football,World Cup qualification,2-4,Nem volt piros lap..,8,1
+43,Palmeiras-Botafogó,2025.06.28,3.3,5000.0,Cards,Lost,Football,World Cup qualification,0-0,Sajnos nem volt piros lap..,8,1
+42,"Norvégia-Ausztria, Szlovénia-Magyarország",2025.06.24,2.19,20000.0,1X2,Lost,Handball,World Cup qualification,"27-27, 35-31",Tanulság: Ne fogadj olyanra amit nem ismersz jól!!,7,1
+40,"Seattle-Paris, Spanyolország-Németország, Norvégia-Magyarország",2025.06.23,3.49,10000.0,1X2,Lost,Mixed sports,World Cup qualification,"0-2, 3-3, 37-33",Spanyolok sajnos elvitték..,7,1
+41,"AtlMadrid-Botafogo, Hollandia-Románia",2025.06.23,5.14,8664.0,Cards,Lost,Football,Mixed leagues,"1-0, 3-1",Nem lett piros lap az Atletico meccsen..,8,1
+37,"Dánia-Franciaország, Real Madrid-Pachua",2025.06.22,2.42,10000.0,1X2,Won,Football,World Cup qualification,"2-3, 3-1",Francia azért nehezen nyert..,7,1
+38,"Salernitana-Sampdoria, Real Madrid-Pachua",2025.06.22,6.02,2898.0,1X2,Lost,Football,Mixed leagues,"0-2,3-1",Hála istennek a Samp megnyerte..,4,1
+39,"ManCity-Alin, Usa-Haiti, RealMadrid-Pachua",2025.06.22,2.43,10000.0,1X2,Won,Football,Mixed leagues,"6-0, 2-1, 3-1",Bejöttek a papírforma eredmények.,8,1
+33,"Mamelodi-Dortmund, Internationale-Urawa",2025.06.21,2.14,13000.0,1X2,Won,Football,World Cup qualification,"3-4,2-1",Bejöttek de nem volt egyik sem sima meccs,8,1
+34,"Portugália-Hollandia, Oviedo-Mirandes, River plate- Monterrey",2025.06.21,4.75,5600.0,1X2,Lost,Football,World Cup qualification,"0-1, 3-1, 0-0",,6,1
+35,"River Plate-Monterrey, Oviedo-Mirandes",2025.06.21,3.33,5000.0,1X2,Lost,Football,World Cup qualification,"0-0, 3-1",Egyik sem jött be..,6,1
+36,"Spanyolország-Anglia, Flumenese-Ulsan",2025.06.21,3.66,5000.0,1X2,Lost,Football,World Cup qualification,"1-3, 2-0",,7,1
+32,"Hollandia-Anglia, Magyarország-Argentína",2025.06.20,2.33,10000.0,1X2,Won,Mixed sports,World Cup qualification,"4-2, 36-29",Bejött..,8,1
+31,"Palmeiras-AL, Inter Turku-KTP",2025.06.19,4.17,5000.0,1X2,Lost,Football,Mixed leagues,"2-0,5-0,2-1",,8,1
+29,"Anglia-Németország, Ilves-Senjion",2025.06.18,5.98,5000.0,1X2,Lost,Football,Mixed leagues,"1-2, 2-3",Mind a kettő elment,7,1
+30,Anglia-Németország,2025.06.18,3.65,7000.0,1X2,Lost,Football,World Cup qualification,1-2,,8,1
+28,"Grúzia-Portugália, Francia-Lengyel, River Plate- Urawa",2025.06.17,2.71,6000.0,1X2,Won,Football,Mixed leagues,"0-4, 4-1, 3-1",Bejöttek..,8,1
+26,"Anglia-Szlovénia, Madagaszkár-Comorre szigetek",2025.06.15,3.22,5000.0,1X2,Lost,Football,Mixed leagues,"0-0, 0-1",Mind a kettő elment,6,1
+27,"Angola-Dél Afrika, Nantes-Barcelona ",2025.06.15,3.11,5000.0,1X2,Lost,Mixed sports,Mixed leagues,"3-0, 30-25",Mind a kettő elment,6,1
+25,"Sampdoria-Salernitana, Spanyol-Románia",2025.06.13,3.1,10000.0,1X2,Won,Football,Mixed leagues,"2-0,2-1",,7,1
+24,"MIrandes-Santander, Finn-Hollandia",2025.06.12,2.95,5000.0,1X2,Lost,Football,Mixed leagues,"4-1,2-2",Hollandon ment el,7,1
+21,"Botswana-Zambía,Szváziföld-Tanzánia",2025.06.11,3.04,3000.0,1X2,Lost,Football,World Cup qualification,"3-3,1,2",,6,1
+22,"Szlovákia-Spanyolország,OOG-Holstbero",2025.06.11,2.39,10000.0,1X2,Won,Mixed sports,Mixed leagues,"2-3,38-30",,8,1
+23,"Olaszország-Románia,Oviedo-Almeira",2025.06.11,5.31,3000.0,1X2,Lost,Football,Mixed leagues,"1-0,1-1",,7,1
+10,"Románia-Ciprus, Lettország-Albánia",2025.06.10,2.61,15000.0,1X2,Lost,Football,World Cup qualification,"2-0,1-1",Sajnos az Albánok nem tudtak nyerni...,8,1
+20,"Románia-Ciprus, Lettország-Albánia",2025.06.10,2.61,15000.0,1X2,Lost,Football,World Cup qualification,"2-0,1-1",Sajnos az Albánok nem tudtak nyerni...,8,1
+9,"Belgium-Wales,Kazasztán-Macedónia",2025.06.09,3.23,10000.0,1X2,Won,Football,World Cup qualification,"4-3,0-1",Belgium 30 nulláról majdnem elbukta..,7,1
+19,"Belgium-Wales,Kazasztán-Macedónia",2025.06.09,3.23,10000.0,1X2,Won,Football,World Cup qualification,"4-3,0-1",Belgium 30 nulláról majdnem elbukta..,7,1
+5,"Namíbia-Malawi, Biegthem-Magdeburg, Kronau-FürseBerlin",2025.06.08,2.39,5000.0,1X2,Lost,Vegyes fogadás,Championship,0-0,Nem nyert Namíbia,6,1
+6,"Portugália-Spanyolország, R.Santander-Mirandes",2025.06.08,4.03,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Portugál x lett én Spanyolokra tettem..,6,1
+7,"R.Santander-MIrandes, Portugália-Spanyolország",2025.06.08,6.9,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Itt is a Portugál ment el..,6,1
+8,Portugália-Spanyolország,2025.06.08,4.15,5000.0,1X2,Won,Football,World Cup qualification,2-2,Biztosíték volt és bejött. Live fogadás. 2-1-nél.,6,1
+15,"Namíbia-Malawi, Biegthem-Magdeburg, Kronau-FürseBerlin",2025.06.08,2.39,5000.0,1X2,Lost,Vegyes fogadás,Championship,0-0,Nem nyert Namíbia,6,1
+16,"Portugália-Spanyolország, R.Santander-Mirandes",2025.06.08,4.03,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Portugál x lett én Spanyolokra tettem..,6,1
+17,"R.Santander-MIrandes, Portugália-Spanyolország",2025.06.08,6.9,5000.0,1X2,Lost,Football,Mixed leagues,"2-2,3-3",Itt is a Portugál ment el..,6,1
+18,Portugália-Spanyolország,2025.06.08,4.15,5000.0,1X2,Won,Football,World Cup qualification,2-2,Biztosíték volt és bejött. Live fogadás. 2-1-nél.,6,1
+3,Málta-Litvánia,2025.06.07,3.05,10000.0,1X2,Lost,Football,World Cup qualification,0-0,Nem nyertek a  Litvánok..,7,1
+4,Ausztria-Románia,2025.06.07,3.2,5000.0,1X2,Lost,Football,World Cup qualification,2-1,Kikaptak a románok..,6,1
+13,Málta-Litvánia,2025.06.07,3.05,10000.0,1X2,Lost,Football,World Cup qualification,0-0,Nem nyertek a  Litvánok..,7,1
+14,Ausztria-Románia,2025.06.07,3.2,5000.0,1X2,Lost,Football,World Cup qualification,2-1,Kikaptak a románok..,6,1
+2,"Musetti-Alcaraz,Macedonia-Belgium,Csehország-Montenegro",2025.06.06,2.89,8593.0,1X2,Lost,Vegyes fogadás,World Cup qualification,"1-2,1-1,2-0",Belgium egy lutri csapat jelenleg!,8,1
+12,"Musetti-Alcaraz,Macedonia-Belgium,Csehország-Montenegro",2025.06.06,2.89,8593.0,1X2,Lost,Vegyes fogadás,World Cup qualification,"1-2,1-1,2-0",Belgium egy lutri csapat jelenleg!,8,1
+1,"Ausztrália-Japán, Bahrein-Szaudarábia",2025.06.05,4.92,1000.0,1X2,Won,Football,World Cup qualification,"1-0, 0-2",Bejöttek a meccsek.,7,1
+11,"Ausztrália-Japán, Bahrein-Szaudarábia",2025.06.05,4.92,1000.0,1X2,Won,Football,World Cup qualification,"1-0, 0-2",Bejöttek a meccsek.,7,1

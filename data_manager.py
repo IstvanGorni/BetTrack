@@ -69,6 +69,17 @@ class DataManager:
 
         self.bets.append(bet)
 
+    def update_bet(self, updated_bet):
+        """
+        Meglévő fogadás frissítése ID alapján
+        """
+        for i, bet in enumerate(self.bets):
+            if str(bet.id) == str(updated_bet.id):
+                self.bets[i] = updated_bet
+                break
+
+        self._rewrite_bets()
+
     def get_all_bets(self):
         return self.bets
 
