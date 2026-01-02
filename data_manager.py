@@ -47,7 +47,8 @@ class DataManager:
                             result=row.get("result", ""),
                             notes=row.get("notes", ""),
                             confidence_scale=row.get("confidence_scale") or 8,
-                            total_bets=row.get("total_bets") or 1
+                            total_bets=row.get("total_bets") or 1,
+                            created_at=row.get('created_at')
                         )
                     )
                 except Exception as e:

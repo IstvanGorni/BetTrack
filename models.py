@@ -1,3 +1,4 @@
+from datetime import datetime
 import uuid
 
 
@@ -16,6 +17,7 @@ class Bet:
         notes="",
         confidence_scale=8,
         total_bets=1,
+        created_at=None,
         id=None
     ):
         self.id = id if id is not None else str(uuid.uuid4())
@@ -29,6 +31,10 @@ class Bet:
         self.league = league
         self.result = result
         self.notes = notes
+        self.total_bets = int(total_bets)
+
+        # timestamp
+        self.created_at = created_at or datetime.now().isoformat()
 
         # ✅ DEFAULT confidence_scale = 8
         try:
@@ -66,7 +72,8 @@ class Bet:
             "result": self.result,
             "notes": self.notes,
             "confidence_scale": self.confidence_scale,
-            "total_bets": self.total_bets
+            "total_bets": self.total_bets,
+            'created_at': self.created_at
         }
 
     def __repr__(self):
