@@ -1,9 +1,10 @@
 from email.policy import default
 
-from flask import Flask, render_template, request, redirect, url_for  # url_for hozzáadva
+from flask import Flask, render_template, request, redirect, url_for, Response  # url_for hozzáadva
 from data_manager import DataManager, calculate_total_balance, calculate_total_stake, calculate_avgodds
 from models import Bet
 from datetime import datetime
+import csv
 
 app = Flask(__name__)
 data_manager = DataManager('data.csv')
@@ -234,6 +235,48 @@ def transactions():
     balance = sum(-t['amount'] if t['type'] == 'Deposit' else t['amount'] for t in transactions)
 
     return render_template('transactions.html', transactions=transactions, balance=balance)
+
+
+@app.route('/export/bets')
+def export_bets():
+    bets = data_manager.get_all_bets()
+
+    def generate():
+        header = [
+            'id', 'event', 'date', 'odds', 'stake', 'bet_type',
+            'outcome', 'sport', 'league', 'result',
+            'notes', 'confidence_scale', 'total_bets',
+            'balance', 'created_at'
+        ]
+        yield ','.join(header) + '\n'
+
+        for bet in bets:
+            row = [
+                bet.id,
+                bet.event,
+                bet.date,
+                bet.odds,
+                bet.stake,
+                bet.bet_type,
+                bet.outcome,
+                bet.sport,
+                bet.league,
+                bet.result,
+                bet.notes,
+                bet.confidence_scale,
+                bet.total_bets,
+                bet.balance,
+                bet.created_at
+            ]
+            yield ','.join(map(str, row)) + '\n'
+
+    return Response(
+        generate(),
+        mimetype='text/csv',
+        headers={
+            "Content-Disposition": "attachment; filename=bets_export.csv"
+        }
+    )
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -7,7 +7,15 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body class="container py-5" style="background-color: #5da155;">
+
   <h2 class="mb-4 text-white">All Bets</h2>
+
+  <!-- Export CSV gomb -->
+  <div class="mb-3">
+    <a href="{{ url_for('export_bets') }}" class="btn btn-outline-light">
+      ⬇ Export CSV
+    </a>
+  </div>
 
   <!-- Felső lenyíló oldalválasztó -->
   <div class="mb-4 d-flex justify-content-between align-items-center">
@@ -26,15 +34,20 @@
   <form method="get" action="{{ url_for('show_bets') }}" class="mb-4 d-flex align-items-end gap-2">
     <div>
       <label for="date_filter" class="form-label text-white mb-1">Filter by Date</label>
-      <input type="date" id="date_filter" name="date_filter" class="form-control"
-             value="{{ date_filter|default('') }}">
+      <input
+        type="date"
+        id="date_filter"
+        name="date_filter"
+        class="form-control"
+        value="{{ date_filter|default('') }}"
+      >
     </div>
-    <input type="hidden" name="page" value="1"> <!-- Szűrés mindig az 1. oldaltól induljon -->
+    <input type="hidden" name="page" value="1">
     <button type="submit" class="btn btn-light mt-auto">Apply</button>
     <a href="{{ url_for('show_bets') }}" class="btn btn-secondary mt-auto">Clear</a>
   </form>
 
-  <!-- Tábla megjelenítése -->
+  <!-- Tábla -->
   <table class="table table-bordered table-striped bg-white">
     <thead class="table-dark">
       <tr>
@@ -70,11 +83,19 @@
         <td>{{ bet.confidence_scale }}</td>
         <td>{{ bet.balance }}</td>
         <td>
-          <a href="{{ url_for('edit_bet', bet_id=bet.id) }}" class="btn btn-warning btn-sm">Edit</a>
+          <a href="{{ url_for('edit_bet', bet_id=bet.id) }}" class="btn btn-warning btn-sm">
+            Edit
+          </a>
         </td>
         <td>
-          <form action="{{ url_for('delete_bet', bet_id=bet.id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this bet?');">
-            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+          <form
+            action="{{ url_for('delete_bet', bet_id=bet.id) }}"
+            method="POST"
+            onsubmit="return confirm('Are you sure you want to delete this bet?');"
+          >
+            <button type="submit" class="btn btn-danger btn-sm">
+              Delete
+            </button>
           </form>
         </td>
       </tr>
@@ -96,5 +117,6 @@
       <a href="{{ url_for('show_bets', page=page+1) }}" class="btn btn-light">Következő</a>
     {% endif %}
   </div>
+
 </body>
 </html>
